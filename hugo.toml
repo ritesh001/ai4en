@@ -1,3 +1,59 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://example.org/"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Ritesh Kumar - Computational Materials Scientist"
+
+theme = "DoIt"
+
+[params]
+  version = "0.2.X"
+  description = "Eric & Wendy Schmidt AI in Science Fellow at University of Chicago"
+  keywords = ["AI", "Machine Learning", "Materials Science", "Battery Research", "Computational Chemistry"]
+  
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarURL = ""
+      title = "Ritesh Kumar"
+      subtitle = "Eric & Wendy Schmidt AI in Science Fellow | Postdoctoral Scholar"
+      typeit = false
+      social = true
+  
+  [params.social]
+    Email = "riteshk@uchicago.edu"
+    GitHub = "ritesh001"
+    Linkedin = "ritesh-kumar"
+    GoogleScholar = "your-id"
+
+  [params.page]
+    [params.page.toc]
+      enable = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/CV_faculty_India_10052025.pdf"
+    weight = 4
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
