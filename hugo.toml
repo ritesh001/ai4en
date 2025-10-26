@@ -1,7 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://ritesh001.github.io/ai4en/"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "Ritesh Kumar - Computational Materials Scientist"
+title = "Ritesh Kumar - AI for Energy"
 
 theme = "DoIt"
 
@@ -15,7 +15,7 @@ theme = "DoIt"
       enable = true
       avatarURL = ""
       title = "Ritesh Kumar"
-      subtitle = "Eric & Wendy Schmidt AI in Science Fellow | Postdoctoral Scholar"
+      subtitle = "Eric & Wendy Schmidt AI in Science Fellow"
       typeit = false
       social = true
   
