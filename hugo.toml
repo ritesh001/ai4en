@@ -22,7 +22,7 @@ theme = "DoIt"
   [params.social]
     Email = "riteshk@uchicago.edu"
     GitHub = "ritesh001"
-    Linkedin = "ritesh-kumar"
+    Linkedin = "ritesh-kumar-phd"
     GoogleScholar = "your-id"
 
   [params.page]
@@ -48,7 +48,7 @@ theme = "DoIt"
   [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "/CV_faculty_India_10052025.pdf"
+    url = "/Ritesh_Kumar_CV.pdf"
     weight = 4
 
 # Markup related configuration in Hugo

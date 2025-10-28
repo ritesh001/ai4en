@@ -21,7 +21,7 @@ First Division
 
 ## Current Position
 
-### Eric & Wendy Schmidt AI in Science Fellow and Postdoctoral Scholar
+### Eric & Wendy Schmidt AI in Science Fellow
 **University of Chicago, Pritzker School of Molecular Engineering** | January 2022 – Present  
 *Advisor*: Prof. Chibueze Amanchukwu
 
@@ -79,13 +79,8 @@ First Division
 - Generative AI
 
 **Programming & Tools:**
-- Python, VASP, Quantum ESPRESSO
-- PyTorch, TensorFlow, scikit-learn
+- Programming languages: Python, Matlab
+- DFT: VASP, Quantum ESPRESSO, Gaussian, CP2K
+- MD: LAMMPS
+- ML packages: PyTorch, TensorFlow, Scikit-learn
 - High-performance computing
-
-**Research Areas:**
-- Battery materials and electrolytes
-- Heterogeneous catalysis
-- Photocatalysis
-- 2D materials and nanomaterials
-- Materials informatics

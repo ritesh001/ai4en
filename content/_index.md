@@ -24,4 +24,4 @@ I am **Ritesh Kumar**, an Eric & Wendy Schmidt AI in Science Fellow at the **Pri
 **Phone**: +1 (773) 219-8231
 **Office**: Pritzker School of Molecular Engineering, University of Chicago, 5640 S Ellis Avenue, Chicago, IL 60637
 
-[View My Complete CV →](/Ritesh_Kumar_CV.pdf)
+[View My Complete CV →](/ai4en/Ritesh_Kumar_CV.pdf)
