@@ -8,18 +8,15 @@ I am **Ritesh Kumar**, an Eric & Wendy Schmidt AI in Science Fellow at the **Pri
 
 ## Research Interests
 
-- **AI-driven materials discovery**: Developing machine learning techniques for electrolyte discovery and optimization
-- **Battery Technology**: Next-generation lithium metal batteries and solid-state electrolytes
-- **Computational simulations**: Ab initio molecular dynamics and density functional theory
-- **Catalysis**: Rational design of efficient catalysts for energy conversion reactions
+- **AI-driven materials discovery**: Developing machine learning techniques for materials discovery in batteries and other energy technologies
+- **Computational simulations**: Molecular dynamics and density functional theory for atomistic-level investigation of materials and interfaces
+- **Energy storage**: Next-generation batteries including lithium metal batteries
+- **Energy conversion**: Rational design of efficient catalysts for key reactions of industrial importance
 
 ## Recent Highlights
 
-- Selected for **Future Faculty Mentoring Program** by American Institute of Chemical Engineering (AIChE)
-- **2025 CAS Future Leader Top 100 Award** by American Chemical Society (ACS)
-- Co-developed **AtomBridge**: Automated STEM image to crystal structure conversion using LLMs
-- Led development of **curAItor-agent**: Automated scientific data extraction using AI agents
-- Built the **largest liquid electrolyte databases** for accelerated battery materials discovery
+- PME News (University of Chicago): [A Big Data approach for battery electrolytes](https://pme.uchicago.edu/news/big-data-approach-battery-electrolytes) | May 5, 2025
+
 
 ## Contact
 
@@ -27,4 +24,4 @@ I am **Ritesh Kumar**, an Eric & Wendy Schmidt AI in Science Fellow at the **Pri
 **Phone**: +1 (773) 219-8231
 **Office**: Pritzker School of Molecular Engineering, University of Chicago, 5640 S Ellis Avenue, Chicago, IL 60637
 
-[View My Complete CV →](/CV_faculty_India_10052025.pdf)
+[View My Complete CV →](/Ritesh_Kumar_CV.pdf)
