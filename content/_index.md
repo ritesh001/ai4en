@@ -13,9 +13,11 @@ I am **Ritesh Kumar**, an Eric & Wendy Schmidt AI in Science Fellow at the **Pri
 - **Energy storage**: Next-generation batteries including lithium metal batteries
 - **Energy conversion**: Rational design of efficient catalysts for key reactions of industrial importance
 
-## Recent Highlights
+## RNews & Highlights
 
-- PME News (University of Chicago): [A Big Data approach for battery electrolytes](https://pme.uchicago.edu/news/big-data-approach-battery-electrolytes) | May 5, 2025
+- EurekAlert! news release: [New AI model explores massive chemical space with minimal data](https://www.eurekalert.org/news-releases/1104049) | October 30, 2025
+- Invited talk at University of Oxford (ZERO Institute Seminar): A[ccelerating liquid electrolyte discovery for next-generation batteries using data-driven techniques](https://zero.ox.ac.uk/events/zero-institute-seminar-accelerating-liquid-electrolyte-discovery-for-next-generation-batteries-using-data-driven-techniques-with-ritesh-kumar/) | September 18, 2025
+- Science Daily blog: [A Big Data approach for battery electrolytes](https://www.sciencedaily.com/releases/2025/05/250505170824.htm) | May 6, 2025
 
 
 ## Contact

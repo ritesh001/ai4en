@@ -20,7 +20,6 @@ date: 2025-10-26
 First Division
 
 ## Current Position
-
 ### Eric & Wendy Schmidt AI in Science Fellow
 **University of Chicago, Pritzker School of Molecular Engineering** | January 2022 – Present  
 *Advisor*: Prof. Chibueze Amanchukwu
@@ -38,7 +37,6 @@ First Division
 - Led development of **curAItor-agent**: Automated scientific data extraction using LLMs and AI agents ([GitHub](https://github.com/ritesh001/curaitor-agent))
 
 ## Awards & Honors
-
 - **CAS Future Leader Top 100 Award**, American Chemical Society (March 2025)
 - **Selected for Future Faculty Mentoring Program**, AIChE (October 2025)
 - **Eric & Wendy Schmidt AI in Science Postdoctoral Fellow** ($80,000/year, January 2023 – January 2026)
