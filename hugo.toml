@@ -48,7 +48,7 @@ theme = "DoIt"
   [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "/Ritesh_Kumar_CV.pdf"
+    url = "/ai4en/Ritesh_Kumar_CV.pdf"
     weight = 4
 
 # Markup related configuration in Hugo
