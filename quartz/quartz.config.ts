@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Ritesh Kumar - Intelligent Electrochemical Energy (IE$^2$) Lab",
+    pageTitle: "Intelligent Electrochemical Energy (IE²) Lab",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

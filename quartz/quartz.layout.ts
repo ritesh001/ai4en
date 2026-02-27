@@ -27,6 +27,10 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
+    Component.ConditionalRender({
+      component: Component.ProfileImage(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
