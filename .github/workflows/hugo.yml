@@ -1,4 +1,4 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy Quartz site to GitHub Pages
 
 on:
   push:
@@ -20,40 +20,61 @@ defaults:
     shell: bash
 
 jobs:
-  build:
+  validate-quartz:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.152.2
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
-      
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
-      
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: quartz/package-lock.json
+
+      - name: Install dependencies
+        working-directory: quartz
+        run: npm ci
+
+      - name: Build Quartz
+        working-directory: quartz
+        run: npx quartz build
+
+  build:
+    needs: validate-quartz
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: quartz/package-lock.json
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      
-      - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
-      
+
+      - name: Install dependencies
+        working-directory: quartz
+        run: npm ci
+
+      - name: Build Quartz
+        working-directory: quartz
+        run: npx quartz build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./quartz/public
 
   deploy:
     environment:
