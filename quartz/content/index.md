@@ -2,9 +2,9 @@
 title: "Home"
 ---
 
-# Welcome
+# About
 
-I am **Ritesh Kumar**, an Eric & Wendy Schmidt AI in Science Fellow at the **Pritzker School of Molecular Engineering, University of Chicago**. My research focuses on accelerating materials discovery for next-generation energy storage and conversion devices using artificial intelligence and computational simulations.
+Our research focuses on accelerating materials discovery for next-generation energy storage and conversion devices using artificial intelligence and computational simulations.
 
 ## Research Interests
 
@@ -12,6 +12,13 @@ I am **Ritesh Kumar**, an Eric & Wendy Schmidt AI in Science Fellow at the **Pri
 - **Computational modeling**: Molecular dynamics and density functional theory for atomistic- and molecular-level investigation of materials and interfaces
 - **Energy storage**: Molecular design of efficient electrolytes for next-generation batteries including lithium metal batteries
 - **Energy conversion**: Rational design of efficient catalysts for key reactions of industrial importance
+
+## Explore
+
+- [Members](members)
+- [Research](research)
+- [Publications](publications)
+- [Software](software)
 
 ## News & Highlights
 
@@ -25,8 +32,8 @@ I am **Ritesh Kumar**, an Eric & Wendy Schmidt AI in Science Fellow at the **Pri
 
 ## Contact
 
-**Email**: riteshk@uchicago.edu
-**Phone**: +1 (773) 219-8231
-**Office**: Pritzker School of Molecular Engineering, University of Chicago, 5640 S Ellis Avenue, Chicago, IL 60637
+- **Email**: riteshk@uchicago.edu
+
+- **Affiliation**: School of Natural Sciences, TCG CREST, Kolkata, WB, India
 
 [View My Complete CV →](Ritesh_Kumar_CV.pdf)

@@ -127,3 +127,9 @@ This synergistic approach has led to **22 publications** in high-impact journals
 **Research Grants:**
 - AI+Science Research Initiative Fund ($10,000, PI)
 - UChicago Women's Board Grant ($50,000, Co-I)
+
+## Related Pages
+
+- [Members](members)
+- [Publications](publications)
+- [Software](software)

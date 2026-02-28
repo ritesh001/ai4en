@@ -5,7 +5,9 @@ aliases:
   - "publications/index"
 ---
 
-**Equal Contribution**: † denotes equal contribution
+**Note**: 
+1. <sup>†</sup> denotes equal contribution
+2. <sup>*</sup> denotes corresponding authorship
 
 ---
 
@@ -13,7 +15,7 @@ aliases:
 
 2. **R. Kumar**, K.-H. Wang, Z. Umlauf, C. V. Amanchukwu. "ElectroNN: Interpretable Deep Learning Framework for Accurate Property Prediction and Generation of Electrolytes." (In preparation)
 
-3. J. Kim, K.-H. Wang, **R. Kumar**, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." (In preparation)
+3. J. Kim, K.-H. Wang, **R. Kumar**, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." (Under revision at JACS Au)
 
 ---
 
@@ -21,11 +23,11 @@ aliases:
 
 ### 2026
 
-23. **R. Kumar†**, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. "Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery." *ChemRxiv* (2025). [DOI](https://doi.org/10.26434/chemrxiv-2025-7nnbl)
+23. **R. Kumar<sup>†</sup>**, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. "Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery." *ChemRxiv* (2025). [DOI](https://doi.org/10.26434/chemrxiv-2025-7nnbl)
 
 ### 2025
 
-22. **P. Ma†, R. Kumar†**, K.-H. Wang, C. V. Amanchukwu. "Active learning accelerates electrolyte solvent screening for anode-free lithium metal batteries." *Nat. Commun.* **16**, 8396 (2025). [DOI](https://doi.org/10.1038/s41467-025-56398-7)
+22. P. Ma<sup>†</sup>, **R. Kumar<sup>†</sup>**, K.-H. Wang, C. V. Amanchukwu. "Active learning accelerates electrolyte solvent screening for anode-free lithium metal batteries." *Nat. Commun.* **16**, 8396 (2025). [DOI](https://doi.org/10.1038/s41467-025-56398-7)
 
 21. H. Fejzic, **R. Kumar**, R. J. Gomes, L. He, T. J. Houser, J. Kim, N. Molten, C. V. Amanchukwu. "Water Clustering Modulates Activity and Enables Hydrogenated Product Formation during Carbon Monoxide Electroreduction in Aprotic Media." *J. Am. Chem. Soc.* **147**, 18445-18459 (2025). [DOI](https://doi.org/10.1021/jacs.4c13374)
 
@@ -89,4 +91,10 @@ aliases:
 
 ---
 
-*For the most up-to-date publication list, please visit my [Google Scholar profile](https://scholar.google.com) or download my [CV](Ritesh_Kumar_CV.pdf).*
+## Review articles
+
+## Related Pages
+
+- [Members](members)
+- [Research](research)
+- [Software](software)
