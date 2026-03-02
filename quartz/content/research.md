@@ -1,19 +1,18 @@
 ---
 title: "Research"
-date: 2025-10-26
 aliases:
   - "research/index"
 ---
 
-## Research Overview
+# Research philosophy
 
 My research combines **artificial intelligence**, **computational chemistry**, and **experimental validation** to accelerate the discovery of materials for sustainable energy applications. I focus on developing data-driven frameworks that leverage machine learning, molecular simulations, and high-throughput experimentation to design next-generation battery electrolytes and catalysts.
 
 ---
 
-## Current Research Projects
+# Research themes
 
-### 1. AI-Driven Electrolyte Discovery for Next-Generation Batteries
+## 1. AI-Driven Electrolyte Discovery for Next-Generation Batteries
 
 **Objective**: Accelerate the discovery of optimal electrolyte formulations for lithium metal and anode-free batteries using machine learning.
 
@@ -91,8 +90,6 @@ My approach integrates three pillars:
 2. **Data-Driven Discovery**: Leveraging machine learning and large databases to accelerate materials screening
 3. **Experimental Validation**: Close collaboration with experimentalists to validate predictions and iterate designs
 
-This synergistic approach has led to **22 publications** in high-impact journals and **3 manuscripts under review/preparation**.
-
 ---
 
 ## Future Directions
@@ -104,29 +101,15 @@ This synergistic approach has led to **22 publications** in high-impact journals
 
 ---
 
-## Selected Collaborative Projects
+# Collaborative Projects
 
-**Experimental Collaborations:**
+## Past experimental collaborations:
 - High-entropy alloys for electrocatalysis (with Prof. Krishanu Biswas, IIT Kanpur)
-- CO₂ electroreduction catalysts (with Prof. S. C. Peter, JNCASR)
+- CO<sub>2</sub> photoreduction catalysts (with Prof. S. C. Peter, JNCASR)
 - 2D materials synthesis and characterization (with Prof. Pulickel Ajayan, Rice University)
 - Fuel cell catalysts (with Prof. K. K. Nanda, JNCASR)
 
-**Computational Collaborations:**
-- Battery electrolyte optimization (Prof. Chibueze Amanchukwu, UChicago)
-- Materials databases (Prof. Abhishek Singh, IISc Bangalore)
-
 ---
-
-## Funding & Resources
-
-**Active Computing Allocations:**
-- NSF ACCESS Discovery Allocation (Purdue Anvil: 625,000 CPU hours)
-- University of Chicago Research Computing Center (Midway: 200,000 CPU hours)
-
-**Research Grants:**
-- AI+Science Research Initiative Fund ($10,000, PI)
-- UChicago Women's Board Grant ($50,000, Co-I)
 
 ## Related Pages
 

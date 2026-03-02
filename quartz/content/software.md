@@ -1,6 +1,5 @@
 ---
 title: "Software"
-date: 2025-10-26
 aliases:
   - "software/index"
 ---

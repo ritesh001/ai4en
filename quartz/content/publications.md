@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-date: 2025-10-26
 aliases:
   - "publications/index"
 ---
@@ -15,7 +14,7 @@ aliases:
 
 2. **R. Kumar**, K.-H. Wang, Z. Umlauf, C. V. Amanchukwu. "ElectroNN: Interpretable Deep Learning Framework for Accurate Property Prediction and Generation of Electrolytes." (In preparation)
 
-3. J. Kim, K.-H. Wang, **R. Kumar**, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." (Under revision at JACS Au)
+1. J. Kim, K.-H. Wang, **R. Kumar**, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." (Under revision at JACS Au)
 
 ---
 
@@ -23,7 +22,7 @@ aliases:
 
 ### 2026
 
-23. **R. Kumar<sup>†</sup>**, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. "Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery." *ChemRxiv* (2025). [DOI](https://doi.org/10.26434/chemrxiv-2025-7nnbl)
+23. **R. Kumar<sup>†</sup>**, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. "Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery." *Mol. Syst. Des. Eng.* (2026). [DOI](https://doi.org/10.1039/D5ME00188A)
 
 ### 2025
 
@@ -43,11 +42,11 @@ aliases:
 
 ### 2022
 
-16. P. V. Sarma†, R. Nadarajan†, **R. Kumar**, R. M. Patinharayil, N. Biju, S. Narayanan, G. Gao, C. S. Tiwary, M. Thalakulam, R. Kini, A. K. Singh, P. M. Ajayan, M. Shaijumon. "Growth of Highly Crystalline Ultrathin Two-Dimensional Selenene." *2D Mater.* **9**, 045004 (2022). [DOI](https://doi.org/10.1088/2053-1583/ac7ec9)
+16. P. V. Sarma<sup>†</sup>, R. Nadarajan<sup>†</sup>, **R. Kumar**, R. M. Patinharayil, N. Biju, S. Narayanan, G. Gao, C. S. Tiwary, M. Thalakulam, R. Kini, A. K. Singh, P. M. Ajayan, M. Shaijumon. "Growth of Highly Crystalline Ultrathin Two-Dimensional Selenene." *2D Mater.* **9**, 045004 (2022). [DOI](https://doi.org/10.1088/2053-1583/ac7ec9)
 
 15. R. Das, S. Sarkar, **R. Kumar**, S. D. Ramarao, A. Cherevotan, M. Jasil, C. P. Vinod, A. K. Singh, S. C. Peter. "Noble-Metal-Free Heterojunction Photocatalyst for Selective CO₂ Reduction to Methane upon Induced Strain Relaxation." *ACS Catal.* **12**, 687-697 (2022). [DOI](https://doi.org/10.1021/acscatal.1c04502)
 
-14. L. Sharma†, N. K. Katiyar†, A. Parui†, R. Das, **R. Kumar**, C. S. Tiwary, A. K. Singh, Aditi Halder, Krishanu Biswas. "Low-Cost High Entropy Alloy (HEA) for High-Efficiency Oxygen Evolution Reaction (OER)." *Nano Res.* **15**, 4799-4806 (2022). [DOI](https://doi.org/10.1007/s12274-021-4039-6)
+14. L. Sharma<sup>†</sup>, N. K. Katiyar<sup>†</sup>, A. Parui<sup>†</sup>, R. Das, **R. Kumar**, C. S. Tiwary, A. K. Singh, Aditi Halder, Krishanu Biswas. "Low-Cost High Entropy Alloy (HEA) for High-Efficiency Oxygen Evolution Reaction (OER)." *Nano Res.* **15**, 4799-4806 (2022). [DOI](https://doi.org/10.1007/s12274-021-4039-6)
 
 ### 2021
 
@@ -63,11 +62,11 @@ aliases:
 
 9. P. Sarma, T. V. Vineesh, **R. Kumar**, V. Sreepal, A. K. Singh, M. Shaijumon. "Nanostructured Tungsten Oxysulfide as an Efficient Electrocatalyst for Hydrogen Evolution Reaction." *ACS Catal.* **10**, 6753–6762 (2020). [DOI](https://doi.org/10.1021/acscatal.0c01406)
 
-8. K. Urs†, N. K. Katiyar†, **R. Kumar**, K. Bishwas, A. K. Singh, C. S. Tiwary, V. B. Kamble. "Multi-component (Ag-Au-Cu-Pd-Pt) Alloy Nanoparticles Decorated p-type 2D-Molybdenum Disulphide (MoS₂) for Enhanced Hydrogen Sensing" *Nanoscale* **12**, 11830–11841 (2020). [DOI](https://doi.org/10.1039/D0NR01845G)
+8. K. Urs<sup>†</sup>, N. K. Katiyar<sup>†</sup>, **R. Kumar**, K. Bishwas, A. K. Singh, C. S. Tiwary, V. B. Kamble. "Multi-component (Ag-Au-Cu-Pd-Pt) Alloy Nanoparticles Decorated p-type 2D-Molybdenum Disulphide (MoS₂) for Enhanced Hydrogen Sensing" *Nanoscale* **12**, 11830–11841 (2020). [DOI](https://doi.org/10.1039/D0NR01845G)
 
-7. N. K. Katiyar†, S. Nellaiappan†, **R. Kumar†**, K. D. Malviya, K. G. Pradeep, A. K. Singh, S. Sharma, C. S. Tiwary, K. Bishwas. "Formic Acid and Methanol Electro-oxidation and Counter Hydrogen Production Using Nano High Entropy Catalyst." *Mater. Today Ener.* **16**, 100393 (2020). [DOI](https://doi.org/10.1016/j.mtener.2020.100393)
+7. N. K. Katiyar<sup>†</sup>, S. Nellaiappan<sup>†</sup>, **R. Kumar†**, K. D. Malviya, K. G. Pradeep, A. K. Singh, S. Sharma, C. S. Tiwary, K. Bishwas. "Formic Acid and Methanol Electro-oxidation and Counter Hydrogen Production Using Nano High Entropy Catalyst." *Mater. Today Ener.* **16**, 100393 (2020). [DOI](https://doi.org/10.1016/j.mtener.2020.100393)
 
-6. S. Nellaiappan†, N. K. Katiyar†, **R. Kumar†**, A. Parui, K. D. Malviya, K. G. Pradeep, A. K. Singh, S. Sharma, C. S. Tiwary, K. Bishwas. "High-Entropy Alloys as Catalysts for the CO₂ and CO Reduction Reactions: Experimental Realization." *ACS Catal.* **10**, 3658–3663 (2020). [DOI](https://doi.org/10.1021/acscatal.9b04841)
+6. S. Nellaiappan<sup>†</sup>, N. K. Katiyar<sup>†</sup>, **R. Kumar<sup>†</sup>**, A. Parui, K. D. Malviya, K. G. Pradeep, A. K. Singh, S. Sharma, C. S. Tiwary, K. Bishwas. "High-Entropy Alloys as Catalysts for the CO₂ and CO Reduction Reactions: Experimental Realization." *ACS Catal.* **10**, 3658–3663 (2020). [DOI](https://doi.org/10.1021/acscatal.9b04841)
 
 5. S. Nellaiappan, **R. Kumar**, S. C., S Irusta, J. A. Hachtel, J. C. Idrobo, A. K. Singh, C. S. Tiwary, S. Sharma. "Electroreduction of Carbon Dioxide into Selective Hydrocarbon at Low Overpotential using Isomorphic Atomic Substitution in Copper Oxide." *ACS Sustainable Chem. Eng* **8**, 179–189 (2020). [DOI](https://doi.org/10.1021/acssuschemeng.9b05485)
 
