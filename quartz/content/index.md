@@ -17,6 +17,8 @@ Have a look at our profiles in the [Members](members) page.
 - **Energy storage**: Molecular design of efficient electrolytes for next-generation batteries including lithium metal batteries
 - **Energy conversion**: Rational design of efficient catalysts for key reactions of industrial importance
 
+Refer [Research](research) page for detailed research philosophy and research interests of our lab.
+
 ---
 
 ## Recent news & highlights
@@ -24,6 +26,8 @@ Have a look at our profiles in the [Members](members) page.
 - Ritesh named [2025 Rising Stars in Soft and Biologic Matter](https://mrsec.uchicago.edu/about-us/risingstars2025/), co-sponsored by University of Chicago and University of California San Diego | December 10, 2025
 - EurekAlert! news release: [New AI model explores massive chemical space with minimal data](https://www.eurekalert.org/news-releases/1104049) | October 30, 2025
 - Ritesh invited for talk at University of Oxford (ZERO Institute Seminar): [Accelerating liquid electrolyte discovery for next-generation batteries using data-driven techniques](https://zero.ox.ac.uk/events/zero-institute-seminar-accelerating-liquid-electrolyte-discovery-for-next-generation-batteries-using-data-driven-techniques-with-ritesh-kumar/) | September 18, 2025
+
+Refer [News & highlights](news) for more news and highlights from the lab.
 
 ---
 
@@ -45,3 +49,4 @@ Have a look at our profiles in the [Members](members) page.
 - [Funding & resources](funding)
 - [Fun & recreation](fun)
 - [News & highlights](news)
+- [Blogs](blogs/*)

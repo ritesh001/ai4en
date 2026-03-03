@@ -4,13 +4,13 @@ aliases:
   - "research/index"
 ---
 
-# Research philosophy
+## Research philosophy
 
 My research combines **artificial intelligence**, **computational chemistry**, and **experimental validation** to accelerate the discovery of materials for sustainable energy applications. I focus on developing data-driven frameworks that leverage machine learning, molecular simulations, and high-throughput experimentation to design next-generation battery electrolytes and catalysts.
 
 ---
 
-# Research themes
+## Research themes
 
 ## 1. AI-Driven Electrolyte Discovery for Next-Generation Batteries
 
@@ -82,17 +82,13 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 ---
 
-## Research Philosophy
+## Mentoring philosophy
 
-My approach integrates three pillars:
 
-1. **First-Principles Understanding**: Using quantum mechanics and molecular simulations to understand fundamental mechanisms
-2. **Data-Driven Discovery**: Leveraging machine learning and large databases to accelerate materials screening
-3. **Experimental Validation**: Close collaboration with experimentalists to validate predictions and iterate designs
 
 ---
 
-## Future Directions
+## Future directions
 
 - **Autonomous laboratories**: Developing closed-loop systems that integrate ML, robotics, and simulations for self-driving materials discovery
 - **Generative models**: Creating novel molecular architectures beyond explored chemical spaces
@@ -101,7 +97,9 @@ My approach integrates three pillars:
 
 ---
 
-# Collaborative Projects
+## Collaborative projects
+
+---
 
 ## Past experimental collaborations:
 - High-entropy alloys for electrocatalysis (with Prof. Krishanu Biswas, IIT Kanpur)

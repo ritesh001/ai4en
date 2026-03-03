@@ -14,6 +14,5 @@ aliases:
 
 ## Related Pages
 
-- [Members](members)
 - [Research](research)
 - [Publications](publications)

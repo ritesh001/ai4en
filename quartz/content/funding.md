@@ -4,19 +4,19 @@ aliases:
   - "funding/index"
 ---
 
-# Funding
+## Funding
 
-## Research grants as PI
+### Research grants as PI
 
-### AI+Science Research Initiative Fund (January 2024)
+#### AI+Science Research Initiative Fund (January 2024)
 *Funding agency*: Data Science Institute, University of Chicago  
 *Role*: PI  
 *Amount*: $10,000  
 *Project*: Self-driving battery lab to accelerate scientific discovery
 
-## Research grants as co-PI
+### Research grants as co-PI
 
-### University of Chicago Women's Board Grant Fund (June 2023)
+#### University of Chicago Women's Board Grant Fund (June 2023)
 *Funding agency*: University of Chicago Women's Board  
 *Role*: Co-I  
 *Amount*: $50,000  
@@ -24,11 +24,11 @@ aliases:
 
 ---
 
-# Computational resources
+## Computational resources
 
-## In-house
+### In-house
 
-## External
+### External
 
 ---
 

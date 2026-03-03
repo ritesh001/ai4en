@@ -5,15 +5,9 @@ aliases:
   - "members/index"
 ---
 
-# Group pictures
+## PI (Ritesh Kumar)
 
----
-
-# PI (Ritesh Kumar)
-
-![Ritesh Kumar](images/headshot_rk.jpg)
-
-## About
+[Ritesh Kumar](images/headshot_rk.jpg)
 
 ## Education and experience
 
@@ -30,14 +24,12 @@ aliases:
 *Advisor*: Prof. Chibueze Amanchukwu
 
 ### Selected awards & honors
-- **CAS Future Leader Top 100 Award**, American Chemical Society (March 2025)
-- **Selected for Future Faculty Mentoring Program**, AIChE (October 2025)
-- **Eric & Wendy Schmidt AI in Science Postdoctoral Fellow** ($80,000/year, January 2023 – January 2026)
-- **Selected for Oxford Research Software Engineering (OxRSE) Workshop**, University of Oxford (June 2024 & September 2025)
-- **All India Rank 38** in IIT-Joint Admission test for Master's (IIT-JAM) Examination (February 2015)
-- **IASc-INSA-NASI Summer Research Fellowship** (May 2014 – July 2014)
+- **CAS Future Leader Top 100 Award**, American Chemical Society | March 2025
+- **Eric & Wendy Schmidt AI in Science Postdoctoral Fellow** | January 2023 – January 2026 
+- **All India Rank 38** in IIT-Joint Admission test for Master's (IIT-JAM) Examination | February 2015
+- **IASc-INSA-NASI Summer Research Fellowship** | May 2014 – July 2014
 
-[View My Complete CV →](Ritesh_Kumar_CV.pdf)
+View my full [CV](Ritesh_Kumar_CV.pdf) here.
 
 ---
 # Graduate Students
