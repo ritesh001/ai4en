@@ -21,7 +21,7 @@ Have a look at our profiles in the [Members](members) page.
 
 ## Recent news & highlights
 
-- Ritesh Named [2025 Rising Stars in Soft and Biologic Matter](https://mrsec.uchicago.edu/about-us/risingstars2025/), co-sponsored by University of Chicago and University of California San Diego | December 10, 2025
+- Ritesh named [2025 Rising Stars in Soft and Biologic Matter](https://mrsec.uchicago.edu/about-us/risingstars2025/), co-sponsored by University of Chicago and University of California San Diego | December 10, 2025
 - EurekAlert! news release: [New AI model explores massive chemical space with minimal data](https://www.eurekalert.org/news-releases/1104049) | October 30, 2025
 - Ritesh invited for talk at University of Oxford (ZERO Institute Seminar): [Accelerating liquid electrolyte discovery for next-generation batteries using data-driven techniques](https://zero.ox.ac.uk/events/zero-institute-seminar-accelerating-liquid-electrolyte-discovery-for-next-generation-batteries-using-data-driven-techniques-with-ritesh-kumar/) | September 18, 2025
 

@@ -21,7 +21,7 @@ ProfileImage.css = `
 .profile-image-container {
   display: flex;
   justify-content: center;
-  margin: 1rem 0 1.25rem;
+  margin: 0.5rem 0 1.0rem;
 }
 
 .profile-image {

@@ -8,6 +8,7 @@ import ReaderMode from "./ReaderMode"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
 import ProfileImage from "./ProfileImage"
+import LandingSocialLinks from "./LandingSocialLinks"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
@@ -35,6 +36,7 @@ export {
   Head,
   PageTitle,
   ProfileImage,
+  LandingSocialLinks,
   ContentMeta,
   Spacer,
   TableOfContents,

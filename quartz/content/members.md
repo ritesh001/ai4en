@@ -11,6 +11,8 @@ aliases:
 
 # PI (Ritesh Kumar)
 
+![Ritesh Kumar](images/headshot_rk.jpg)
+
 ## About
 
 ## Education and experience

@@ -27,8 +27,9 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
+    Component.ProfileImage(),
     Component.ConditionalRender({
-      component: Component.ProfileImage(),
+      component: Component.LandingSocialLinks(),
       condition: (page) => page.fileData.slug === "index",
     }),
     Component.MobileOnly(Component.Spacer()),
@@ -61,6 +62,7 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
+    Component.ProfileImage(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
