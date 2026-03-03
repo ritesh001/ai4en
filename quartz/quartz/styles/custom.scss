@@ -1,3 +1,17 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.pi-headshot-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0 1rem;
+}
+
+.pi-headshot {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--lightgray);
+}

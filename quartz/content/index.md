@@ -49,4 +49,4 @@ Refer [News & highlights](news) for more news and highlights from the lab.
 - [Funding & resources](funding)
 - [Fun & recreation](fun)
 - [News & highlights](news)
-- [Blogs](blogs/*)
+- [Blogs](blogs)

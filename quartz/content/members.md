@@ -7,20 +7,22 @@ aliases:
 
 ## PI (Ritesh Kumar)
 
-[Ritesh Kumar](images/headshot_rk.jpg)
+<div class="pi-headshot-wrap">
+  <img class="pi-headshot" src="./images/headshot_rk.jpg" alt="Ritesh Kumar" />
+</div>
 
-## Education and experience
+### Education and experience
 
-### Ph.D. in Materials Science
+#### Ph.D. in Materials Science
 **Indian Institute of Science, Bangalore, India** | August 2017 – January 2022  
 *Advisor*: Prof. Abhishek Singh  
 
-### M.S. in Chemical Science
+#### M.S. in Chemical Science
 **Indian Institute of Science, Bangalore, India** | July 2015 – July 2017  
 *Advisor*: Prof. Abhishek Singh  
 
-### Eric & Wendy Schmidt AI in Science Fellow
-**University of Chicago, Pritzker School of Molecular Engineering** | January 2022 – Present  
+#### Eric & Wendy Schmidt AI in Science Fellow
+**University of Chicago, Pritzker School of Molecular Engineering** | January 2022 – February 2026 
 *Advisor*: Prof. Chibueze Amanchukwu
 
 ### Selected awards & honors
@@ -32,15 +34,15 @@ aliases:
 View my full [CV](Ritesh_Kumar_CV.pdf) here.
 
 ---
-# Graduate Students
+## Graduate Students
 
-## Education and experience
+### Education and experience
 
 ---
 
-# Postdocs
+## Postdocs
 
-## Education and experience
+### Education and experience
 
 ---
 

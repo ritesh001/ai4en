@@ -12,11 +12,11 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 ## Research themes
 
-## 1. AI-Driven Electrolyte Discovery for Next-Generation Batteries
+## 1. AI-driven electrolyte discovery for next-generation batteries
 
 **Objective**: Accelerate the discovery of optimal electrolyte formulations for lithium metal and anode-free batteries using machine learning.
 
-**Key Contributions:**
+**Key contributions:**
 - Developed **Electrolytomics**: A unified big data approach integrating multiple electrolyte databases (20,000+ entries) for systematic design and discovery ([*Chem. Mater.* 2025](https://doi.org/10.1021/acs.chemmater.4c03309))
 - Enhanced **Bayesian optimization** techniques to handle data-scarce and noisy-label settings in real-world battery discovery
 - Created **active learning** frameworks that reduced experimental screening by 80% while maintaining discovery accuracy ([*Nat. Commun.* 2025](https://doi.org/10.1038/s41467-025-56398-7))
@@ -26,11 +26,11 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 ---
 
-### 2. Understanding Electrolyte Effects in Electrochemical Reactions
+### 2. Understanding electrolyte effects in electrochemical reactions
 
 **Objective**: Elucidate fundamental mechanisms of how aprotic electrolytes influence electrochemical transformations.
 
-**Key Discoveries:**
+**Key discoveries:**
 - Discovered that **water clustering** in aprotic media modulates activity and enables hydrogenated product formation during CO electroreduction ([*JACS* 2025](https://doi.org/10.1021/jacs.4c13374))
 - Revealed how **water hydrogen bonding** within nonaqueous environments controls reactivity in electrochemical transformations ([*Nat. Catal.* 2024](https://doi.org/10.1038/s41929-024-01155-6))
 - Formulated **computational descriptors** from MD simulations to predict electrolyte performance in CO₂/CO reduction
@@ -39,7 +39,7 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 ---
 
-### 3. Machine Learning for Materials Property Prediction
+### 3. Machine learning for materials property prediction
 
 **Objective**: Develop interpretable ML models for accurate prediction of materials properties.
 
@@ -50,36 +50,35 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 ---
 
-### 4. Rational Design of Catalysts
+### 4. Rational design of catalysts
 
 **Objective**: Establish design principles for efficient catalysts in key industrial reactions.
 
-**Major Contributions:**
+**Major contributions:**
 - Developed **electronic structure-based design principles** for single-atom catalysts in nitrogen reduction reaction ([*ChemCatChem* 2020](https://doi.org/10.1002/cctc.202000744))
 - Established **universal criteria for Dirac cone splitting** in 2D materials for electronic applications ([*J. Phys. Chem. C* 2019](https://doi.org/10.1021/acs.jpcc.9b07851))
-- Designed **van der Waals heterostructures** (C₂N/WS₂) as promising water splitting photocatalysts ([*J. Catal.* 2018](https://doi.org/10.1016/j.jcat.2018.01.005))
-
-**Collaborations**: Extensive experimental validation with groups at IISc Bangalore, IIT, and international collaborators
+- Designed **van der Waals heterostructures** (C<sub>2</sub>N/WS<sub>2</sub>) as promising water splitting photocatalysts ([*J. Catal.* 2018](https://doi.org/10.1016/j.jcat.2018.01.005))
 
 ---
 
-### 5. AI-Powered Scientific Software Development
+### 5. AI-Powered scientific software development
 
 **Objective**: Build tools that automate scientific workflows and accelerate discovery.
 
-**Software Projects:**
+**Software projects:**
 
-#### **AtomBridge** 
+#### `AtomBridge`
 - Automated conversion of STEM images to crystal structures using LLMs and computer vision
 - Bridges the gap between microscopy and atomic-scale modeling
 - [GitHub Repository](https://github.com/dpalmer-anl/AtomBridge)
 - **Award**: 2025 Visionary Award at LLM Hackathon for Materials Science & Chemistry
 
-#### **curAItor-agent**
+#### `curAItor-agent`
 - Autonomous scientific data extraction from literature using LLMs and AI agents
 - Reduces manual data curation time by 95%
 - [GitHub Repository](https://github.com/ritesh001/curaitor-agent)
 
+Refer [Software](software) page for more details
 ---
 
 ## Mentoring philosophy

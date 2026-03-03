@@ -27,9 +27,12 @@ ProfileImage.css = `
 .profile-image {
   width: 180px;
   height: 180px;
-  object-fit: cover;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 0.35rem;
   border-radius: 50%;
   border: 2px solid var(--lightgray);
+  background: var(--light);
 }
 `
 

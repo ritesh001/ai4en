@@ -4,11 +4,11 @@ aliases:
   - "fun/index"
 ---
 
-# Group social activities
+## Group social activities
 
 ---
 
-# Group outings
+## Group outings
 
 ---
 
