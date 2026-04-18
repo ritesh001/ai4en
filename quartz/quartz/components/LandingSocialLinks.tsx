@@ -35,7 +35,8 @@ const socialLinks: SocialLink[] = [
   },
   {
     label: "GitHub",
-    href: "https://github.com/ritesh001",
+    href: "https://github.com/IE2Lab",
+    // href: "https://github.com/ritesh001",
     className: "github",
     icon: (
       <svg viewBox="0 0 16 16" aria-hidden="true">
