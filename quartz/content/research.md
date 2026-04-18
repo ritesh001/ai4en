@@ -12,7 +12,7 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 ## Research themes
 
-## 1. AI-driven electrolyte discovery for next-generation batteries
+### 1. AI-driven electrolyte discovery for next-generation batteries
 
 **Objective**: Accelerate the discovery of optimal electrolyte formulations for lithium metal and anode-free batteries using machine learning.
 

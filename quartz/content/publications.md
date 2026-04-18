@@ -18,7 +18,7 @@ aliases:
 
 ---
 
-## Peer-reviewed articles (as Ph.D/postdoc)
+## Peer-reviewed articles (as Postdoc/Ph.D.)
 
 ### 2026
 

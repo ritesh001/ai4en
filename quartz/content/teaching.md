@@ -4,19 +4,19 @@ aliases:
   - "teaching/index"
 ---
 
-# Teaching philosophy
+## Teaching philosophy
 
 ---
 
-# Teaching experience
+## Teaching experience
 
-## As sole instructor
-
-
-## As co-instructors (TA)
+### As sole instructor
 
 
-## As guest lecturer
+### As co-instructors (TA)
+
+
+### As guest lecturer
 
 ---
 
