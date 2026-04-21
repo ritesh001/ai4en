@@ -23,6 +23,7 @@ Refer [Research](research) page for detailed research philosophy and research in
 
 ## Recent news & highlights
 
+- [Ritesh](members)'s perspective paper on AI for batteries published in *Current Opinion in Chemical Engineering* as a part of Special Issue on *Artificial Intelligence and Chemical Engineering* | April 2026
 - [Ritesh](members) contributed to blog post by a [Chemistry World]() (published by Royal Society of Chemistry): 
 - [Ritesh](members) named [2025 Rising Stars in Soft and Biologic Matter](https://mrsec.uchicago.edu/about-us/risingstars2025/), co-sponsored by University of Chicago and University of California San Diego | December 10, 2025
 - EurekAlert! news release: [New AI model explores massive chemical space with minimal data](https://www.eurekalert.org/news-releases/1104049) | October 30, 2025

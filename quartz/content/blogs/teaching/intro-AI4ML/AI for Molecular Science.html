@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AI for Molecular & Materials Science — Lecture Deck</title>
+<meta name="viewport" content="width=1920" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="deck-stage.js"></script>
+
+<style>
+  /* ===== Tweakable theme vars (default values between the EDITMODE markers) ===== */
+  :root {
+    --font-display: 'Instrument Serif', Georgia, serif;
+    --font-body: 'Geist', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, Menlo, monospace;
+
+    /* Warm off-white base */
+    --paper: oklch(0.985 0.008 85);
+    --paper-2: oklch(0.965 0.012 85);
+    --ink: oklch(0.22 0.02 260);
+    --ink-soft: oklch(0.45 0.015 260);
+    --rule: oklch(0.85 0.015 85);
+
+    /* Playful accents — same chroma/lightness, different hue */
+    --coral: oklch(0.72 0.15 30);
+    --mint:  oklch(0.72 0.15 160);
+    --violet:oklch(0.72 0.15 290);
+    --amber: oklch(0.78 0.14 75);
+
+    --coral-ink: oklch(0.45 0.15 30);
+    --mint-ink:  oklch(0.42 0.13 170);
+    --violet-ink:oklch(0.42 0.15 290);
+  }
+
+  html, body { margin: 0; padding: 0; background: #000; color: var(--ink); }
+  body { font-family: var(--font-body); font-weight: 400; }
+
+  /* Every slide is a full canvas */
+  deck-stage section.slide {
+    background: var(--paper);
+    color: var(--ink);
+    padding: 100px 100px 80px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    line-height: 1.45;
+    overflow: hidden;
+  }
+
+  /* Typography */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 24px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+    margin: 0;
+  }
+  .title.small { font-size: 72px; }
+  .subtitle {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+  .body { font-size: 34px; line-height: 1.45; color: var(--ink); }
+  .small { font-size: 28px; color: var(--ink-soft); }
+  .mono { font-family: var(--font-mono); }
+
+  /* Equation block */
+  .eq {
+    font-family: var(--font-mono);
+    font-size: 38px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 24px 32px;
+    display: inline-block;
+    color: var(--ink);
+  }
+  .eq .sym { color: var(--coral-ink); }
+  .eq .var { color: var(--violet-ink); font-style: italic; }
+  .eq .par { color: var(--mint-ink); }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 24px;
+    color: var(--ink);
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+  }
+  .chip .dot {
+    width: 12px; height: 12px; border-radius: 999px; background: var(--coral);
+  }
+
+  /* Section-header slides */
+  .section-slide {
+    background: var(--ink);
+    color: var(--paper);
+    justify-content: center;
+  }
+  .section-slide .eyebrow { color: var(--paper-2); opacity: 0.6; }
+  .section-slide .title { color: var(--paper); font-size: 140px; }
+
+  /* Two-column grid helper */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; flex: 1; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 48px; flex: 1; }
+
+  /* Figure card */
+  .fig {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: 18px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .fig .caption {
+    font-family: var(--font-mono);
+    font-size: 24px;
+    color: var(--ink-soft);
+    letter-spacing: 0.02em;
+  }
+  .fig .legend {
+    font-family: var(--font-mono);
+    font-size: 24px;
+    color: var(--ink-soft);
+    display: flex; flex-wrap: wrap; gap: 18px; align-items: center;
+  }
+  .fig .legend .swatch { width: 14px; height: 14px; border-radius: 4px; display: inline-block; margin-right: 8px; vertical-align: middle; }
+
+  /* Code block */
+  pre.code {
+    font-family: var(--font-mono);
+    font-size: 24px;
+    line-height: 1.5;
+    background: var(--ink);
+    color: oklch(0.92 0.01 85);
+    border-radius: 14px;
+    padding: 24px 28px;
+    margin: 0;
+    overflow: hidden;
+  }
+  pre.code .kw { color: var(--coral); }
+  pre.code .fn { color: var(--mint); }
+  pre.code .num { color: var(--amber); }
+  pre.code .str { color: var(--violet); }
+  pre.code .cm { color: oklch(0.65 0.01 85); font-style: italic; }
+
+  /* Interactive controls */
+  .ctrl-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--font-mono);
+    font-size: 24px;
+    color: var(--ink);
+    flex-wrap: wrap;
+  }
+  .ctrl-row label {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 14px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+  }
+  .ctrl-row input[type=range] {
+    width: 180px;
+    accent-color: var(--coral);
+  }
+  .ctrl-row button {
+    font-family: var(--font-mono);
+    font-size: 24px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: 1px solid var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+    cursor: pointer;
+  }
+  .ctrl-row button.ghost {
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .ctrl-row .val {
+    display: inline-block;
+    min-width: 48px;
+    text-align: right;
+    color: var(--coral-ink);
+  }
+
+  /* Tag list */
+  .tags { display: flex; flex-wrap: wrap; gap: 14px; }
+
+  /* Title-slide blob */
+  .blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: 0.55;
+    pointer-events: none;
+  }
+
+  /* Tweaks panel */
+  .tweaks {
+    position: fixed;
+    right: 16px;
+    bottom: 70px;
+    z-index: 2147483100;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 14px 16px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    min-width: 240px;
+    box-shadow: 0 14px 50px rgba(0,0,0,.25);
+    display: none;
+  }
+  .tweaks.open { display: block; }
+  .tweaks h4 { margin: 0 0 10px 0; font-family: var(--font-display); font-weight: 400; font-size: 20px; }
+  .tweaks .row { display:flex; align-items:center; justify-content:space-between; margin: 8px 0; gap: 12px; }
+  .tweaks .swatches { display:flex; gap:8px; }
+  .tweaks .sw {
+    width: 22px; height: 22px; border-radius: 999px; border: 2px solid transparent; cursor: pointer;
+  }
+  .tweaks .sw.active { border-color: var(--ink); }
+  .tweaks select, .tweaks button {
+    font: inherit;
+    background: var(--paper-2); border: 1px solid var(--rule); border-radius: 6px; padding: 4px 8px;
+    color: var(--ink);
+  }
+</style>
+</head>
+<body>
+
+<deck-stage width="1920" height="1080">
+
+  <!-- ============== 01 TITLE ============== -->
+  <section class="slide" data-label="Title" style="justify-content:center; position:relative;">
+    <div class="blob" style="background:var(--coral); width:520px; height:520px; top:-120px; left:-120px;"></div>
+    <div class="blob" style="background:var(--mint);  width:620px; height:620px; bottom:-180px; right:-160px;"></div>
+    <div class="blob" style="background:var(--violet);width:360px; height:360px; top:40%; left:38%;"></div>
+
+    <div style="position:relative; z-index:1;">
+      <div class="eyebrow">A 30-minute primer · no ML background required</div>
+      <h1 class="title" style="font-size: 168px; margin-top: 28px; line-height: 0.95;">
+        AI for<br/>Molecules &amp; Materials
+      </h1>
+      <div class="subtitle" style="margin-top: 36px;">
+        From curve-fitting to potentials that predict new matter.
+      </div>
+      <div class="ctrl-row" style="margin-top: 56px;">
+        <span class="chip"><span class="dot" style="background:var(--coral);"></span>Lecture 01</span>
+        <span class="chip"><span class="dot" style="background:var(--mint);"></span>Master's · AI+Science</span>
+        <span class="chip"><span class="dot" style="background:var(--violet);"></span>8 live demos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 02 WHY ML FOR MOLECULES ============== -->
+  <section class="slide" data-label="Why ML for Molecules">
+    <div class="eyebrow">Motivation</div>
+    <h2 class="title" style="margin-top: 18px;">Why ML for molecules?</h2>
+    <div class="grid3" style="margin-top: 56px;">
+      <div class="fig">
+        <div class="caption">01 · Chemical space is huge</div>
+        <div style="font-family:var(--font-display); font-size:140px; line-height:1; color:var(--coral-ink);">10<sup style="font-size:72px;">60</sup></div>
+        <div class="body">Drug-like molecules. The universe has ~10<sup>80</sup> atoms.</div>
+      </div>
+      <div class="fig">
+        <div class="caption">02 · Quantum mechanics is slow</div>
+        <div style="font-family:var(--font-display); font-size:140px; line-height:1; color:var(--mint-ink);">O(N⁴)</div>
+        <div class="body">DFT scaling. Seconds per small molecule, weeks for a crystal.</div>
+      </div>
+      <div class="fig">
+        <div class="caption">03 · Experiments are expensive</div>
+        <div style="font-family:var(--font-display); font-size:140px; line-height:1; color:var(--violet-ink);">$2.6B</div>
+        <div class="body">Mean cost to bring one drug to market.</div>
+      </div>
+    </div>
+    <div class="small" style="margin-top: 32px;">ML doesn't replace physics or experiments — it makes search through this space affordable.</div>
+  </section>
+
+  <!-- ============== 03 DATA: MOLECULES AS NUMBERS ============== -->
+  <section class="slide" data-label="Molecules as Numbers">
+    <div class="eyebrow">The Data</div>
+    <h2 class="title" style="margin-top: 18px;">Molecules are structured data.</h2>
+    <div class="grid3" style="margin-top: 48px; gap: 40px;">
+      <div class="fig">
+        <div class="caption">String</div>
+        <div class="mono" style="font-size: 30px; line-height:1.5;">CC(=O)OC1=CC=<br/>CC=C1C(=O)O</div>
+        <div class="small">SMILES — aspirin</div>
+      </div>
+      <div class="fig">
+        <div class="caption">Fingerprint (bit-vector)</div>
+        <div id="fingerprint" class="mono" style="font-size: 20px;"></div>
+        <div class="small">Hash substructures to 1024 bits</div>
+      </div>
+      <div class="fig">
+        <div class="caption">Graph</div>
+        <svg viewBox="0 0 360 200" style="width: 100%;">
+          <g stroke="var(--ink)" stroke-width="2.5" fill="none">
+            <line x1="60" y1="100" x2="120" y2="60"/>
+            <line x1="120" y1="60" x2="200" y2="60"/>
+            <line x1="200" y1="60" x2="260" y2="100"/>
+            <line x1="260" y1="100" x2="200" y2="150"/>
+            <line x1="200" y1="150" x2="120" y2="150"/>
+            <line x1="120" y1="150" x2="60" y2="100"/>
+            <line x1="260" y1="100" x2="320" y2="100"/>
+          </g>
+          <g>
+            <circle cx="60" cy="100" r="16" fill="var(--coral)"/>
+            <circle cx="120" cy="60" r="16" fill="var(--coral)"/>
+            <circle cx="200" cy="60" r="16" fill="var(--coral)"/>
+            <circle cx="260" cy="100" r="16" fill="var(--coral)"/>
+            <circle cx="200" cy="150" r="16" fill="var(--coral)"/>
+            <circle cx="120" cy="150" r="16" fill="var(--coral)"/>
+            <circle cx="320" cy="100" r="16" fill="var(--mint)"/>
+          </g>
+          <g font-family="var(--font-mono)" font-size="14" fill="white" text-anchor="middle" dominant-baseline="central">
+            <text x="60" y="100">C</text><text x="120" y="60">C</text><text x="200" y="60">C</text>
+            <text x="260" y="100">C</text><text x="200" y="150">C</text><text x="120" y="150">C</text>
+            <text x="320" y="100">O</text>
+          </g>
+        </svg>
+        <div class="small">Atoms = nodes, bonds = edges → GNNs</div>
+      </div>
+    </div>
+    <div class="eq" style="margin-top: 40px;">
+      <span class="sym">x</span> ∈ ℝ<sup>d</sup> &nbsp;&nbsp; → &nbsp;&nbsp; <span class="var">f</span>(<span class="sym">x</span>; <span class="par">θ</span>) ≈ <span class="var">y</span>
+      <span style="font-family:var(--font-body); font-size:26px; color:var(--ink-soft); margin-left:20px;">— pick a representation, then fit</span>
+    </div>
+  </section>
+
+  <!-- ============== 04 SUPERVISED LEARNING (linear regression demo) ============== -->
+  <section class="slide" data-label="Supervised Learning">
+    <div class="eyebrow">Basics · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">Supervised learning, in one picture.</h2>
+    <div class="grid2" style="margin-top: 36px;">
+      <div class="fig">
+        <div class="caption">Drag the points. The line refits live.</div>
+        <svg id="lr-svg" viewBox="0 0 600 400" style="width:100%; background: var(--paper); border-radius: 10px;"></svg>
+        <div class="ctrl-row">
+          <button id="lr-reset" class="ghost">Reset points</button>
+          <span>slope <span id="lr-m" class="val">0.00</span></span>
+          <span>intercept <span id="lr-b" class="val">0.00</span></span>
+          <span>loss <span id="lr-loss" class="val">0.00</span></span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center; gap: 28px;">
+        <div class="eq">
+          <span class="var">ŷ</span> = <span class="par">m</span>·<span class="sym">x</span> + <span class="par">b</span>
+        </div>
+        <div class="eq">
+          ℒ(<span class="par">m,b</span>) = <sup>1</sup>/<sub>n</sub> Σ (<span class="var">ŷᵢ</span> − <span class="var">yᵢ</span>)²
+        </div>
+        <div class="body">
+          Learning = find parameters <span class="mono" style="color:var(--mint-ink);">m, b</span> that minimise the loss <span class="mono" style="color:var(--coral-ink);">ℒ</span>.
+        </div>
+        <div class="small">Every ML model is this sentence, with fancier parameters.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 05 GRADIENT DESCENT (loss landscape) ============== -->
+  <section class="slide" data-label="Gradient Descent">
+    <div class="eyebrow">Basics · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">Gradient descent walks downhill.</h2>
+    <div class="grid2" style="margin-top: 36px;">
+      <div class="fig">
+        <div class="caption">Click anywhere to start. Slide LR to see over/undershoot.</div>
+        <canvas id="gd-canvas" width="640" height="440" style="width:100%; border-radius:10px; background:var(--paper-2);"></canvas>
+        <div class="ctrl-row">
+          <label>learning rate η<input id="gd-lr" type="range" min="0.005" max="0.6" step="0.005" value="0.08"><span id="gd-lr-v" class="val">0.08</span></label>
+          <button id="gd-step" class="ghost">step</button>
+          <button id="gd-run">run 50 steps</button>
+          <button id="gd-reset" class="ghost">clear</button>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center; gap: 28px;">
+        <div class="eq">
+          <span class="par">θ</span><sub>t+1</sub> = <span class="par">θ</span><sub>t</sub> − <span class="sym">η</span> ∇<sub><span class="par">θ</span></sub> ℒ
+        </div>
+        <div class="body">
+          <span class="mono" style="color:var(--coral-ink);">η</span> too small → crawls.<br/>
+          <span class="mono" style="color:var(--coral-ink);">η</span> too large → diverges.<br/>
+          Non-convex loss → local minima everywhere.
+        </div>
+        <div class="small">In a real network, <span class="mono">θ</span> has millions of dimensions. The picture is a lie — but a useful one.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 06 ACTIVATIONS ============== -->
+  <section class="slide" data-label="Neurons & Activations">
+    <div class="eyebrow">Basics · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">A neuron is a weighted sum, then a squish.</h2>
+    <div class="grid2" style="margin-top: 32px;">
+      <div class="fig">
+        <div class="caption">Toggle activations to compare.</div>
+        <svg id="act-svg" viewBox="0 0 600 400" style="width:100%; background:var(--paper); border-radius:10px;"></svg>
+        <div class="ctrl-row">
+          <label><input type="checkbox" data-act="relu" checked> ReLU</label>
+          <label><input type="checkbox" data-act="sigmoid" checked> sigmoid</label>
+          <label><input type="checkbox" data-act="tanh" checked> tanh</label>
+          <label><input type="checkbox" data-act="gelu"> GELU</label>
+        </div>
+        <div class="legend" style="font-family:var(--font-mono); font-size:20px; color:var(--ink-soft);">
+          <span><span class="swatch" style="background:var(--coral);"></span>ReLU</span>
+          <span><span class="swatch" style="background:var(--mint);"></span>sigmoid</span>
+          <span><span class="swatch" style="background:var(--violet);"></span>tanh</span>
+          <span><span class="swatch" style="background:var(--amber);"></span>GELU</span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center; gap: 28px;">
+        <div class="eq">
+          <span class="var">h</span> = <span class="sym">σ</span>( <span class="par">W</span>·<span class="sym">x</span> + <span class="par">b</span> )
+        </div>
+        <div class="body">
+          Without the squish <span class="mono" style="color:var(--coral-ink);">σ</span>, stacking layers only produces <i>linear</i> functions.
+          The non-linearity is where expressivity comes from.
+        </div>
+        <div class="small">ReLU is the modern default — cheap, non-saturating gradient on the right side.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 07 FORWARD PASS ============== -->
+  <section class="slide" data-label="Forward Pass">
+    <div class="eyebrow">Basics · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">A neural network, forward.</h2>
+    <div style="flex:1; display:flex; flex-direction:column; gap: 24px; margin-top: 32px;">
+      <div class="fig" style="flex:1;">
+        <div class="caption">Drag the weights (lines). Input = [x₁, x₂]. Watch the output change.</div>
+        <svg id="fp-svg" viewBox="0 0 1600 560" style="width:100%; background:var(--paper); border-radius:10px;"></svg>
+      </div>
+      <div class="ctrl-row">
+        <label>x₁ <input id="fp-x1" type="range" min="-1" max="1" step="0.01" value="0.5"><span id="fp-x1-v" class="val">0.50</span></label>
+        <label>x₂ <input id="fp-x2" type="range" min="-1" max="1" step="0.01" value="-0.3"><span id="fp-x2-v" class="val">-0.30</span></label>
+        <button id="fp-randomize" class="ghost">randomize weights</button>
+        <span class="chip">output ŷ = <span id="fp-out" class="mono" style="color:var(--coral-ink); margin-left:6px;">0.00</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 08 BACKPROP ============== -->
+  <section class="slide" data-label="Backpropagation">
+    <div class="eyebrow">Method · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">Training = backpropagation.</h2>
+    <div class="grid2" style="margin-top: 36px;">
+      <div class="fig">
+        <div class="caption">Step through one training iteration.</div>
+        <svg id="bp-svg" viewBox="0 0 720 380" style="width:100%; background:var(--paper); border-radius:10px;"></svg>
+        <div class="ctrl-row">
+          <button id="bp-next">next step →</button>
+          <button id="bp-reset" class="ghost">reset</button>
+          <span class="chip">phase: <span id="bp-phase" class="mono" style="color:var(--coral-ink); margin-left:6px;">forward</span></span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center; gap: 24px;">
+        <div class="eq" style="font-size: 32px;">
+          <span style="color:var(--ink-soft);">chain rule</span><br/>
+          ∂ℒ/∂<span class="par">w</span><sub>i</sub> = ∂ℒ/∂<span class="var">y</span> · ∂<span class="var">y</span>/∂<span class="var">h</span> · ∂<span class="var">h</span>/∂<span class="par">w</span><sub>i</sub>
+        </div>
+        <div class="body">
+          <b style="color:var(--coral-ink);">Forward:</b> push input through the network, compute loss.<br/>
+          <b style="color:var(--mint-ink);">Backward:</b> multiply local gradients, layer by layer, right to left.<br/>
+          <b style="color:var(--violet-ink);">Update:</b> θ ← θ − η ∇θ ℒ.
+        </div>
+        <div class="small">Autograd does this for you. You almost never write ∂ by hand again.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 09 OVERFITTING ============== -->
+  <section class="slide" data-label="Overfitting">
+    <div class="eyebrow">Method · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">Model too small underfits; too large overfits.</h2>
+    <div class="grid2" style="margin-top: 32px;">
+      <div class="fig">
+        <div class="caption">Slide polynomial degree. Dashed = true function.</div>
+        <svg id="of-svg" viewBox="0 0 600 400" style="width:100%; background:var(--paper); border-radius:10px;"></svg>
+        <div class="ctrl-row">
+          <label>degree <input id="of-deg" type="range" min="1" max="15" step="1" value="3"><span id="of-deg-v" class="val">3</span></label>
+          <label>noise <input id="of-noise" type="range" min="0" max="0.5" step="0.01" value="0.15"><span id="of-noise-v" class="val">0.15</span></label>
+          <button id="of-resample" class="ghost">new sample</button>
+        </div>
+        <div class="legend">
+          <span><span class="swatch" style="background:var(--coral);"></span>train loss <span id="of-tr" class="val mono">—</span></span>
+          <span><span class="swatch" style="background:var(--violet);"></span>test loss <span id="of-te" class="val mono">—</span></span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center; gap: 24px;">
+        <div class="eq" style="font-size:32px;">
+          ℒ<sub>test</sub> = <span style="color:var(--coral-ink);">bias²</span> + <span style="color:var(--violet-ink);">variance</span> + <span style="color:var(--ink-soft);">noise</span>
+        </div>
+        <div class="body">
+          <b>Regularization:</b> weight decay, dropout, data augmentation.<br/>
+          <b>Golden rule:</b> <span class="mono" style="color:var(--mint-ink);">train / val / test</span> split. <br/>
+          <b>If val ≫ train:</b> you're memorising.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 10 GAUSSIAN PROCESS ============== -->
+  <section class="slide" data-label="Gaussian Processes">
+    <div class="eyebrow">Method · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">Uncertainty, not just prediction.</h2>
+    <div class="grid2" style="margin-top: 32px;">
+      <div class="fig">
+        <div class="caption">Click to add observations. Band = ±2σ posterior.</div>
+        <svg id="gp-svg" viewBox="0 0 600 400" style="width:100%; background:var(--paper); border-radius:10px;"></svg>
+        <div class="ctrl-row">
+          <label>length ℓ <input id="gp-l" type="range" min="0.3" max="4" step="0.05" value="1.2"><span id="gp-l-v" class="val">1.20</span></label>
+          <label>noise σ <input id="gp-n" type="range" min="0.01" max="0.5" step="0.01" value="0.08"><span id="gp-n-v" class="val">0.08</span></label>
+          <button id="gp-clear" class="ghost">clear</button>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center; gap: 24px;">
+        <div class="eq" style="font-size:30px;">
+          <span class="var">f</span>(<span class="sym">x</span>) ~ 𝒢𝒫(<span class="par">μ</span>(<span class="sym">x</span>), <span class="par">k</span>(<span class="sym">x,x'</span>))
+        </div>
+        <div class="eq" style="font-size:28px;">
+          <span class="par">k</span>(x,x') = exp(−‖x−x'‖² / 2ℓ²) &nbsp; <span style="color:var(--ink-soft);">— RBF</span>
+        </div>
+        <div class="body">
+          Far from data → uncertainty grows. <b>Active learning</b>: pick the next experiment where σ is highest.
+        </div>
+        <div class="small">Classical, pre-deep-learning, still the workhorse for small chem/mat datasets.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 11 PINNs ============== -->
+  <section class="slide" data-label="Physics-Informed NNs">
+    <div class="eyebrow">Method · interactive</div>
+    <h2 class="title" style="margin-top: 12px;">Physics-informed neural networks.</h2>
+    <div class="grid2" style="margin-top: 32px;">
+      <div class="fig">
+        <div class="caption">Mix data loss vs. physics loss for d²u/dx² = −u.</div>
+        <svg id="pi-svg" viewBox="0 0 600 400" style="width:100%; background:var(--paper); border-radius:10px;"></svg>
+        <div class="ctrl-row">
+          <label>λ<sub>data</sub> <input id="pi-d" type="range" min="0" max="1" step="0.01" value="0.5"><span id="pi-d-v" class="val">0.50</span></label>
+          <label>λ<sub>phys</sub> <input id="pi-p" type="range" min="0" max="1" step="0.01" value="0.5"><span id="pi-p-v" class="val">0.50</span></label>
+          <button id="pi-train">train 200 steps</button>
+          <button id="pi-reset" class="ghost">reset</button>
+        </div>
+        <div class="legend">
+          <span><span class="swatch" style="background:var(--coral);"></span>truth sin(x)</span>
+          <span><span class="swatch" style="background:var(--violet);"></span>network</span>
+          <span><span class="swatch" style="background:var(--mint);"></span>training points</span>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; justify-content:center; gap: 22px;">
+        <div class="eq" style="font-size:28px;">
+          ℒ = <span style="color:var(--coral-ink);">λ<sub>d</sub></span>·Σ(u<sub>NN</sub>−u*)² + <span style="color:var(--mint-ink);">λ<sub>p</sub></span>·Σ(𝒟[u<sub>NN</sub>])²
+        </div>
+        <div class="body">
+          The network must <i>also</i> satisfy the differential operator 𝒟 — gradients come from autograd.
+          Data becomes a regulariser; physics becomes a loss.
+        </div>
+        <div class="small">Good when PDE is known &amp; data is scarce. Not a silver bullet when the operator is stiff.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 12 CASE: MOLECULAR PROPERTIES ============== -->
+  <section class="slide" data-label="Case: Molecular Properties">
+    <div class="eyebrow">Science example</div>
+    <h2 class="title" style="margin-top: 12px;">Case study — predicting molecular properties.</h2>
+    <div class="grid2" style="margin-top: 36px; gap: 56px;">
+      <div style="display:flex; flex-direction:column; gap: 22px;">
+        <div class="fig">
+          <div class="caption">Graph Neural Network · message passing</div>
+          <svg viewBox="0 0 560 260" style="width:100%;">
+            <defs>
+              <marker id="arrw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                <path d="M0,0 L10,5 L0,10 z" fill="var(--ink-soft)"/>
+              </marker>
+            </defs>
+            <g stroke="var(--ink-soft)" stroke-width="1.5" fill="none">
+              <line x1="110" y1="90" x2="200" y2="50" marker-end="url(#arrw)"/>
+              <line x1="110" y1="90" x2="200" y2="130" marker-end="url(#arrw)"/>
+              <line x1="110" y1="210" x2="200" y2="170" marker-end="url(#arrw)"/>
+              <line x1="110" y1="210" x2="200" y2="250" marker-end="url(#arrw)" style="display:none"/>
+              <line x1="270" y1="50" x2="360" y2="110" marker-end="url(#arrw)"/>
+              <line x1="270" y1="130" x2="360" y2="110" marker-end="url(#arrw)"/>
+              <line x1="270" y1="170" x2="360" y2="110" marker-end="url(#arrw)"/>
+            </g>
+            <g font-family="var(--font-mono)" font-size="16" fill="white" text-anchor="middle" dominant-baseline="central">
+              <circle cx="80" cy="90" r="22" fill="var(--coral)"/><text x="80" y="90">C</text>
+              <circle cx="80" cy="210" r="22" fill="var(--coral)"/><text x="80" y="210">N</text>
+              <circle cx="230" cy="50" r="22" fill="var(--mint)"/><text x="230" y="50">h₁</text>
+              <circle cx="230" cy="130" r="22" fill="var(--mint)"/><text x="230" y="130">h₂</text>
+              <circle cx="230" cy="170" r="22" fill="var(--mint)"/><text x="230" y="170">h₃</text>
+              <circle cx="390" cy="110" r="30" fill="var(--violet)"/><text x="390" y="110">Σ</text>
+              <circle cx="500" cy="110" r="30" fill="var(--ink)"/><text x="500" y="110">ŷ</text>
+              <line x1="420" y1="110" x2="470" y2="110" stroke="var(--ink-soft)" stroke-width="1.5" marker-end="url(#arrw)"/>
+            </g>
+            <g font-family="var(--font-mono)" font-size="14" fill="var(--ink-soft)">
+              <text x="10" y="160">atoms</text>
+              <text x="190" y="230">messages</text>
+              <text x="370" y="180">pool</text>
+              <text x="470" y="170">property</text>
+            </g>
+          </svg>
+        </div>
+        <div class="body">
+          QM9 benchmark: 134k small molecules, 12 properties (HOMO, LUMO, dipole, ...).
+          Modern GNNs reach <b style="color:var(--mint-ink);">chemical accuracy</b> (~1 kcal/mol) on energies.
+        </div>
+      </div>
+      <div>
+<pre class="code"><span class="cm"># PyTorch Geometric — 10 lines</span>
+<span class="kw">import</span> torch
+<span class="kw">from</span> torch_geometric.nn <span class="kw">import</span> GCNConv, global_mean_pool
+
+<span class="kw">class</span> <span class="fn">MolGNN</span>(torch.nn.Module):
+  <span class="kw">def</span> <span class="fn">__init__</span>(self, d=<span class="num">64</span>):
+    super().__init__()
+    self.c1 = <span class="fn">GCNConv</span>(<span class="num">11</span>, d)
+    self.c2 = <span class="fn">GCNConv</span>(d, d)
+    self.out = torch.nn.<span class="fn">Linear</span>(d, <span class="num">1</span>)
+  <span class="kw">def</span> <span class="fn">forward</span>(self, x, edge_index, batch):
+    h = self.<span class="fn">c1</span>(x, edge_index).<span class="fn">relu</span>()
+    h = self.<span class="fn">c2</span>(h, edge_index).<span class="fn">relu</span>()
+    <span class="kw">return</span> self.<span class="fn">out</span>(<span class="fn">global_mean_pool</span>(h, batch))</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 13 CASE: ML INTERATOMIC POTENTIALS ============== -->
+  <section class="slide" data-label="Case: Interatomic Potentials">
+    <div class="eyebrow">Science example</div>
+    <h2 class="title" style="margin-top: 12px;">Case study — ML interatomic potentials.</h2>
+    <div class="grid2" style="margin-top: 36px; gap: 56px;">
+      <div style="display:flex; flex-direction:column; gap: 24px;">
+        <div class="body">
+          Replace the inner loop of molecular dynamics:
+        </div>
+        <div class="eq" style="font-size:32px;">
+          <span class="var">E</span>(<span class="sym">r</span><sub>1</sub>, …, <span class="sym">r</span><sub>N</sub>) = Σ<sub>i</sub> <span class="var">f</span><sub>NN</sub>(local env of atom <span class="sym">i</span>)
+        </div>
+        <div class="eq" style="font-size:32px;">
+          <span class="var">F</span><sub>i</sub> = − ∂<span class="var">E</span>/∂<span class="sym">r</span><sub>i</sub> &nbsp; <span style="color:var(--ink-soft);">— free, via autograd</span>
+        </div>
+        <div class="body">
+          Trained on DFT forces &amp; energies. Inference is <b style="color:var(--coral-ink);">10³–10⁶× faster</b> than DFT.
+          Enables ns-scale MD on systems DFT can't touch.
+        </div>
+      </div>
+      <div class="fig">
+        <div class="caption">Accuracy vs. cost (log–log, schematic)</div>
+        <svg viewBox="0 0 540 380" style="width:100%;">
+          <g font-family="var(--font-mono)" font-size="14" fill="var(--ink-soft)">
+            <line x1="60" y1="40" x2="60" y2="330" stroke="var(--ink)" stroke-width="1.5"/>
+            <line x1="60" y1="330" x2="510" y2="330" stroke="var(--ink)" stroke-width="1.5"/>
+            <text x="260" y="362" text-anchor="middle">cost per evaluation →</text>
+            <text x="30" y="185" transform="rotate(-90 30,185)" text-anchor="middle">accuracy →</text>
+          </g>
+          <g>
+            <circle cx="130" cy="290" r="14" fill="var(--violet)"/>
+            <text x="155" y="295" font-family="var(--font-mono)" font-size="18" fill="var(--ink)">classical FF</text>
+
+            <circle cx="260" cy="170" r="14" fill="var(--coral)"/>
+            <text x="285" y="175" font-family="var(--font-mono)" font-size="18" fill="var(--ink)">MLIP (MACE, NequIP)</text>
+
+            <circle cx="430" cy="80" r="14" fill="var(--mint)"/>
+            <text x="330" y="55" font-family="var(--font-mono)" font-size="18" fill="var(--ink)">DFT</text>
+            <line x1="430" y1="80" x2="370" y2="65" stroke="var(--ink-soft)" stroke-width="1"/>
+
+            <path d="M130 290 Q 220 220 260 170 Q 340 110 430 80" stroke="var(--ink-soft)" stroke-dasharray="4 4" fill="none" stroke-width="1.5"/>
+            <text x="280" y="130" font-family="var(--font-mono)" font-size="14" fill="var(--coral-ink)" font-weight="500">↖ Pareto shift</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 14 LIMITS ============== -->
+  <section class="slide" data-label="Limits & Pitfalls">
+    <div class="eyebrow">Limits</div>
+    <h2 class="title" style="margin-top: 12px;">What to worry about.</h2>
+    <div class="grid3" style="margin-top: 48px;">
+      <div class="fig">
+        <div class="caption" style="color:var(--coral-ink);">Distribution shift</div>
+        <div class="body">A model trained on small organics silently fails on metals.</div>
+        <div class="small mono">test ∉ train</div>
+      </div>
+      <div class="fig">
+        <div class="caption" style="color:var(--mint-ink);">Data leakage</div>
+        <div class="body">Random splits on molecules leak scaffolds. Use <b>scaffold split</b> or temporal split.</div>
+        <div class="small mono">IID assumption ≠ reality</div>
+      </div>
+      <div class="fig">
+        <div class="caption" style="color:var(--violet-ink);">Symmetries</div>
+        <div class="body">Energy must be invariant to rotation/translation/permutation. Architecture should bake this in.</div>
+        <div class="small mono">E(3)-equivariance</div>
+      </div>
+      <div class="fig">
+        <div class="caption" style="color:var(--coral-ink);">Uncertainty</div>
+        <div class="body">Point predictions hide disaster. Calibrated σ is table stakes for decision-making.</div>
+        <div class="small mono">GPs · ensembles · conformal</div>
+      </div>
+      <div class="fig">
+        <div class="caption" style="color:var(--mint-ink);">Benchmark ≠ Reality</div>
+        <div class="body">Leaderboard gains rarely translate to lab yield. Run a prospective study.</div>
+        <div class="small mono">retrospective ≠ prospective</div>
+      </div>
+      <div class="fig">
+        <div class="caption" style="color:var(--violet-ink);">Interpretability</div>
+        <div class="body">A chemist will ignore a black box. Attribution + physics constraints help earn trust.</div>
+        <div class="small mono">saliency · SHAP · physics</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== 15 TAKEAWAYS ============== -->
+  <section class="slide" data-label="Takeaways">
+    <div class="eyebrow">Wrap-up</div>
+    <h2 class="title" style="margin-top: 12px;">Three things to remember.</h2>
+    <div style="display:grid; grid-template-columns: 72px 1fr; gap: 36px 36px; margin-top: 56px; align-items:baseline;">
+      <div style="font-family:var(--font-display); font-size:110px; color:var(--coral-ink); line-height:0.9;">1</div>
+      <div class="body" style="font-size:44px; line-height:1.3;">
+        Every ML model is <i>fit parameters to minimise loss</i>. The rest is architecture and tricks.
+      </div>
+      <div style="font-family:var(--font-display); font-size:110px; color:var(--mint-ink); line-height:0.9;">2</div>
+      <div class="body" style="font-size:44px; line-height:1.3;">
+        <b>Representation beats architecture.</b> A graph &amp; the right symmetries will outperform a bigger MLP.
+      </div>
+      <div style="font-family:var(--font-display); font-size:110px; color:var(--violet-ink); line-height:0.9;">3</div>
+      <div class="body" style="font-size:44px; line-height:1.3;">
+        For science, <b>calibrated uncertainty</b> &gt; a slightly better RMSE.
+      </div>
+    </div>
+    <div class="small" style="margin-top: 60px; display:flex; gap: 42px;">
+      <span><span class="mono" style="color:var(--coral-ink);">reading →</span> Deep Learning for Molecules &amp; Materials (White)</span>
+      <span><span class="mono" style="color:var(--mint-ink);">tools →</span> PyG · e3nn · MACE · SchNetPack</span>
+      <span><span class="mono" style="color:var(--violet-ink);">data →</span> QM9 · MD17 · Materials Project</span>
+    </div>
+  </section>
+
+</deck-stage>
+
+<!-- Tweaks panel -->
+<div id="tweaks" class="tweaks">
+  <h4>Tweaks</h4>
+  <div class="row">
+    <span>Accent</span>
+    <div class="swatches" id="tw-accents"></div>
+  </div>
+  <div class="row">
+    <span>Display font</span>
+    <select id="tw-font">
+      <option value="'Instrument Serif', Georgia, serif">Instrument Serif</option>
+      <option value="'Geist', system-ui, sans-serif">Geist Sans</option>
+      <option value="Georgia, 'Times New Roman', serif">Georgia</option>
+      <option value="'Geist Mono', ui-monospace, monospace">Geist Mono</option>
+    </select>
+  </div>
+  <div class="row">
+    <span>Background</span>
+    <select id="tw-paper">
+      <option value="oklch(0.985 0.008 85)">Warm paper</option>
+      <option value="oklch(0.985 0 0)">Pure white</option>
+      <option value="oklch(0.97 0.01 260)">Cool paper</option>
+      <option value="oklch(0.96 0.015 160)">Mint paper</option>
+    </select>
+  </div>
+</div>
+
+<script>
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+    "accent": "mint",
+    "displayFont": "'Instrument Serif', Georgia, serif",
+    "paper": "oklch(0.985 0.008 85)"
+  }/*EDITMODE-END*/;
+
+  const ACCENTS = {
+    coral:  { main: 'oklch(0.72 0.15 30)',  ink: 'oklch(0.45 0.15 30)' },
+    violet: { main: 'oklch(0.72 0.15 290)', ink: 'oklch(0.42 0.15 290)' },
+    mint:   { main: 'oklch(0.72 0.15 160)', ink: 'oklch(0.42 0.13 170)' },
+    amber:  { main: 'oklch(0.78 0.14 75)',  ink: 'oklch(0.5 0.13 75)' },
+    slate:  { main: 'oklch(0.62 0.08 250)', ink: 'oklch(0.4 0.07 250)' }
+  };
+
+  const state = { ...TWEAK_DEFAULTS };
+  function applyState() {
+    const a = ACCENTS[state.accent] || ACCENTS.coral;
+    document.documentElement.style.setProperty('--coral', a.main);
+    document.documentElement.style.setProperty('--coral-ink', a.ink);
+    document.documentElement.style.setProperty('--font-display', state.displayFont);
+    document.documentElement.style.setProperty('--paper', state.paper);
+    // update active swatch
+    [...document.querySelectorAll('#tw-accents .sw')].forEach(s => {
+      s.classList.toggle('active', s.dataset.accent === state.accent);
+    });
+    const f = document.getElementById('tw-font'); if (f) f.value = state.displayFont;
+    const p = document.getElementById('tw-paper'); if (p) p.value = state.paper;
+  }
+
+  // Build swatches
+  const swWrap = document.getElementById('tw-accents');
+  Object.entries(ACCENTS).forEach(([name, val]) => {
+    const el = document.createElement('div');
+    el.className = 'sw';
+    el.dataset.accent = name;
+    el.style.background = val.main;
+    el.addEventListener('click', () => {
+      state.accent = name; applyState(); persist({ accent: name });
+    });
+    swWrap.appendChild(el);
+  });
+  document.getElementById('tw-font').addEventListener('change', (e) => {
+    state.displayFont = e.target.value; applyState(); persist({ displayFont: state.displayFont });
+  });
+  document.getElementById('tw-paper').addEventListener('change', (e) => {
+    state.paper = e.target.value; applyState(); persist({ paper: state.paper });
+  });
+
+  function persist(edits) {
+    try { window.parent.postMessage({ type: '__edit_mode_set_keys', edits }, '*'); } catch(e) {}
+  }
+
+  // Tweak mode wiring — listener first, THEN announce
+  window.addEventListener('message', (e) => {
+    const d = e.data || {};
+    if (d.type === '__activate_edit_mode') document.getElementById('tweaks').classList.add('open');
+    if (d.type === '__deactivate_edit_mode') document.getElementById('tweaks').classList.remove('open');
+  });
+  try { window.parent.postMessage({ type: '__edit_mode_available' }, '*'); } catch(e) {}
+
+  applyState();
+</script>
+
+<script src="widgets.js"></script>
+
+</body>
+</html>
