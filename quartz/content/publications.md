@@ -22,10 +22,11 @@ aliases:
 
 <div class="pub-entry">
   <img class="pub-thumb" src="./images/AI4Battery_4pillars.jpg" alt="AI4Battery thumbnail" />
-  <span class="pub-text">25. **R. Kumar**, C. V. Amanchukwu. "AI-accelerated realization of next-generation batteries: status quo and outlook." *Curr. Opin. Chem. Eng.* **52**, 101252 (2026). [DOI](https://doi.org/10.1016/j.coche.2026.101252)</span>
+  <span class="pub-text">25. <strong>R. Kumar</strong>, C. V. Amanchukwu. "AI-accelerated realization of next-generation batteries: status quo and outlook." <em>Curr. Opin. Chem. Eng.</em> <strong>52</strong>, 101252 (2026). <a href="https://doi.org/10.1016/j.coche.2026.101252">DOI</a> (Part of "Artificial Intelligence and Chemical Engineering" Special Issue) </span>
 </div>
 
-24. J. Kim, K.-H. Wang, **R. Kumar**, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." *JACS Au* (2026). [DOI](https://doi.org/10.1021/jacsau.5c01628)
+24. J. Kim, K.-H. Wang, **R. Kumar**, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." *JACS Au* (2026). [DOI](https://doi.org/10.1021/jacsau.5c01628) (Part of "[Future Perspectives on Battery Chemistries Special Issue](https://axial.acs.org/energy/call-for-papers-future-perspectives-on-battery-chemistries)"
+)
 
 23. **R. Kumar<sup>†</sup>**, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. "Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery." *Mol. Syst. Des. Eng.* (2026). [DOI](https://doi.org/10.1039/D5ME00188A)
 
