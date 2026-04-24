@@ -5,7 +5,7 @@ aliases:
 ---
 
 ## 2026
-
+- [Ritesh](members) contributed to blog post by a [Chemistry World](https://www.chemistryworld.com/news/machine-learning-cuts-complexity-of-computational-calculations-in-catalysis/4023047.article) (published by Royal Society of Chemistry) | March 2026
 
 ## 2025
 

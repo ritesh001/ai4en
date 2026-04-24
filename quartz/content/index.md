@@ -23,9 +23,9 @@ Refer [Research](research) page for detailed research philosophy and research in
 
 ## Recent news & highlights
 
-- [Ritesh](members)'s perspective paper on AI for batteries published in *Current Opinion in Chemical Engineering* as a part of Special Issue on "Artificial Intelligence and Chemical Engineering" | April 2026
-- [Ritesh](members)'s paper on electrolyte discovery paper using generative AI (`ElectrolyteGPT`) published in *JACS Au* (published as a part of "Future Perspectives on Battery Chemistries" Special Issue) | April 2026
-- [Ritesh](members) contributed to blog post by a [Chemistry World](https://www.chemistryworld.com/news/machine-learning-cuts-complexity-of-computational-calculations-in-catalysis/4023047.article) (published by Royal Society of Chemistry): 
+- [Ritesh](members)'s perspective paper on AI for batteries published in *Current Opinion in Chemical Engineering* as a part of Special Issue on "Artificial Intelligence and Chemical Engineering" | April 2026 → [[publications#pub-25|Publication #25]]
+- [Ritesh](members)'s paper on electrolyte discovery paper using generative AI (`ElectrolyteGPT`) published in *JACS Au* (published as a part of "Future Perspectives on Battery Chemistries" Special Issue) | April 2026 → [[publications#pub-24|Publication #24]]
+- [Ritesh](members) contributed to blog post by a [Chemistry World](https://www.chemistryworld.com/news/machine-learning-cuts-complexity-of-computational-calculations-in-catalysis/4023047.article) (published by Royal Society of Chemistry) | March 2026
 - [Ritesh](members) named [2025 Rising Stars in Soft and Biologic Matter](https://mrsec.uchicago.edu/about-us/risingstars2025/), co-sponsored by University of Chicago and University of California San Diego | December 10, 2025
 - EurekAlert! news release: [New AI model explores massive chemical space with minimal data](https://www.eurekalert.org/news-releases/1104049) | October 30, 2025
 - [Ritesh](members) invited for talk at University of Oxford (ZERO Institute Seminar): [Accelerating liquid electrolyte discovery for next-generation batteries using data-driven techniques](https://zero.ox.ac.uk/events/zero-institute-seminar-accelerating-liquid-electrolyte-discovery-for-next-generation-batteries-using-data-driven-techniques-with-ritesh-kumar/) | September 18, 2025
