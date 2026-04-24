@@ -6,4 +6,8 @@ aliases:
 
 ## March 2026
 
-### An opening for postdoc or RA
+### A postdoc opening on AI for battery electrolyte discovery
+
+### PhD students on AI for battery materials discovery and multiscale modeling
+
+### Summer intern 

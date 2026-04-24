@@ -15,3 +15,26 @@
   border-radius: 50%;
   border: 2px solid var(--lightgray);
 }
+
+/* Publication entry with optional thumbnail */
+.pub-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 0.4rem 0;
+}
+
+.pub-thumb {
+  flex-shrink: 0;
+  width: 90px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--lightgray);
+  margin-top: 0.1rem;
+}
+
+.pub-text {
+  flex: 1;
+  min-width: 0;
+}

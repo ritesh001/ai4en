@@ -39,7 +39,7 @@ Refer [News & highlights](news) for more news and highlights from the lab.
 
 - **Affiliation**: School of Natural Sciences, Research Institute for Sustainable Energy (RISE), TCG CREST
 
-- **Location**: First Floor, Tower 1, Bengal Eco Intelligent Park (Techna), Block EM, Plot No 3, Sector V, Salt lake, Kolkata 700091, West Bengal, India 
+- **Location**: First Floor, Bengal Intelligent Park, EP Block, Sector V, Salt lake, Kolkata - 700091, West Bengal, India 
 
 ---
 
