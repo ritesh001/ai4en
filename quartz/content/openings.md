@@ -10,4 +10,6 @@ aliases:
 
 ### PhD students on AI for battery materials discovery and multiscale modeling
 
-### Summer intern 
+## April 2026
+
+### Summer internship opportunity @ TCG CREST(UG/PG students) 
