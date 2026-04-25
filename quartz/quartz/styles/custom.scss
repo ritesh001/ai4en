@@ -38,3 +38,28 @@
   flex: 1;
   min-width: 0;
 }
+
+/* Blog entry with wrapped text and general sized image */
+.blog-entry {
+  margin: 1rem 0;
+}
+
+.blog-entry::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog-image {
+  float: left;
+  max-width: 45%;
+  height: auto;
+  margin: 0.5rem 1.5rem 1rem 0;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.blog-text {
+  display: block;
+}

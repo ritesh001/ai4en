@@ -42,7 +42,8 @@ Please refer to the [News & highlights](news) page for more news and highlights 
 
 We are actively looking for motivated postdocs, interns, and graduate students who are ready to take on challenges head on and contribute to high-impact research in the broad area of artificial intelligence and electrochemical energy. 
 
-If interested, please refer to the [Openings](openings) page for more information.
+Interested candidates can refer to the [Openings](openings) page for more information.
+
 ---
 
 ## How to contact us?

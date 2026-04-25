@@ -1,3 +1,4 @@
+import { resolveRelative } from "../util/path"
 import { Date, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
@@ -28,6 +29,16 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
     if (text) {
       const segments: (string | JSX.Element)[] = []
+
+      if (fileData.frontmatter?.author) {
+        const author = fileData.frontmatter.author
+        const authorStr = typeof author === 'string' ? author : Array.isArray(author) ? author.join(', ') : 'Unknown Author'
+        segments.push(
+          <span>
+            <a href={resolveRelative(fileData.slug!, "members" as any)}>{authorStr}</a>
+          </span>
+        )
+      }
 
       if (fileData.dates) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
