@@ -4,32 +4,41 @@ aliases:
   - "publications/index"
 ---
 
-**Note**: 
+**Notes**: 
 1. <sup>†</sup> denotes equal contribution
 2. <sup>*</sup> denotes corresponding authorship
 
 ---
 
+# Ritesh's postdoc/Ph.D. publications
+
 ## Preprints
 
-2. **R. Kumar**, K.-H. Wang, Z. Umlauf, C. V. Amanchukwu. "ElectroNN: Interpretable Deep Learning Framework for Accurate Property Prediction and Generation of Electrolytes." (In preparation)
+1. M. Dey, **R. Kumar**, A. K. Singh, "Synergistic Interplay between Surface Polarons and Adsorbates for Photocatalytic
+Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.48550/arXiv.2604.09291)
 
 ---
 
-## Peer-reviewed articles (Ritesh's postdoc/Ph.D. publications)
+## Peer-reviewed articles
 
 ### 2026
 
 <div class="pub-entry" id="pub-25">
-  <img class="pub-thumb" src="./images/AI4Battery_4pillars.jpg" alt="AI4Battery thumbnail" />
-  <span class="pub-text">25. <strong>R. Kumar</strong>, C. V. Amanchukwu. "AI-accelerated realization of next-generation batteries: status quo and outlook." <em>Curr. Opin. Chem. Eng.</em> <strong>52</strong>, 101252 (2026). <a href="https://doi.org/10.1016/j.coche.2026.101252">DOI</a> (Part of "Artificial Intelligence and Chemical Engineering" Special Issue) </span>
+  <img class="pub-thumb" src="./images/AI4Battery_4pillars_25.jpg" alt="AI4Battery thumbnail" />
+  <span class="pub-text">25. <strong>R. Kumar</strong>, C. V. Amanchukwu. "AI-accelerated realization of next-generation batteries: status quo and outlook." <em>Curr. Opin. Chem. Eng.</em> (2026). <a href="https://doi.org/10.1016/j.coche.2026.101252">DOI</a> (Part of "Artificial Intelligence and Chemical Engineering" Special Issue) </span>
 </div>
 
-<span id="pub-24"></span>
+<!-- <span id="pub-24"></span> -->
 
-24. J. Kim, K.-H. Wang, **R. Kumar**, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." *JACS Au* (2026). [DOI](https://doi.org/10.1021/jacsau.5c01628) (Part of "[Future Perspectives on Battery Chemistries Special Issue](https://axial.acs.org/energy/call-for-papers-future-perspectives-on-battery-chemistries)")
+<div class="pub-entry" id="pub-24">
+  <img class="pub-thumb" src="./images/ElectrolyteGPT_24.png" alt="ElectrolyteGPT thumbnail" />
+  <span class="pub-text">24. J. Kim, K.-H. Wang, <strong>R. Kumar</strong>, P. Ma, C. V. Amanchukwu. "Generative Electrolyte Solvent and Formulation Discovery." <em>JACS Au</em> (2026). <a href="https://doi.org/10.1021/jacsau.5c01628">DOI</a> (Part of <a href="https://axial.acs.org/energy/call-for-papers-future-perspectives-on-battery-chemistries">"Future Perspectives on Battery Chemistries Special Issue"</a>) </span>
+</div>
 
-23. **R. Kumar<sup>†</sup>**, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. "Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery." *Mol. Syst. Des. Eng.* (2026). [DOI](https://doi.org/10.1039/D5ME00188A)
+<div class="pub-entry" id="pub-23">
+  <img class="pub-thumb" src="./images/red_emb_cover_23.jpg" alt="red_emb thumbnail" />
+  <span class="pub-text">23. <strong>R. Kumar<sup>†</sup></strong>, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. "Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery." <em>Mol. Syst. Des. Eng.</em> <strong>52</strong>, 101252 (2026). <a href="https://doi.org/10.1039/D5ME00188A">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=me&themeid=b6a6d88a-a1a0-4884-a892-f4760c1cf502">"Festschrift in honour of Juan de Pablo’s 60th birthday"</a> Themed Collection) <strong>Featured on the cover image</strong> </span>
+</div>
 
 ### 2025
 

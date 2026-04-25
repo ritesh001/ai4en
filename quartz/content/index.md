@@ -2,11 +2,13 @@
 title: "Home"
 ---
 
-## Who we are?
+## About IE$^2$ Lab
 
-Our research focuses on accelerating materials discovery for next-generation energy storage and conversion devices using artificial intelligence (AI), multiscale computational simulations, and theory.
+Our research focuses on accelerating materials discovery for next-generation energy storage and conversion devices at the intersection of artificial intelligence (AI), multiscale computational simulations, and scientific theory. By developing trustworthy AI and physics-informed simulation techniques, we aim to bridge the gap between molecular design and macroscopic material properties, enabling the rational development of high-performance batteries, catalysts, and functional materials.
 
-Have a look at our profiles in the [Members](members) page.
+While these techniques are already being used by domain scientists to solve problems related to electrochemical energy, they are typically siloed and cross-disciplinary approach is seldom taken. Our research efforts aim to bridge this gap by developing unified, general-purpose, and trustworthy data-driven techniques to accelerate materials discovery for electrochemical energy applications.
+
+Please have a look at our individual profiles in the [Members](members) page for detailed information about us.
 
 ---
 
@@ -17,7 +19,7 @@ Have a look at our profiles in the [Members](members) page.
 - **Literature mining**: Molecular and materials design of efficient catalysts and electrolytes for key reactions of industrial importance
 - **Automation**: Molecular dynamics (MD), density functional theory (DFT), and continuum modeling for atomistic-, molecular-, and macro-level investigation of materials and interfaces
 
-Refer [Research](research) page for detailed research philosophy and research interests of our lab.
+Please refer to the [Research](research) page for detailed research philosophy and research interests of our lab.
 
 ---
 
@@ -30,7 +32,7 @@ Refer [Research](research) page for detailed research philosophy and research in
 - EurekAlert! news release: [New AI model explores massive chemical space with minimal data](https://www.eurekalert.org/news-releases/1104049) | October 30, 2025
 - [Ritesh](members) invited for talk at University of Oxford (ZERO Institute Seminar): [Accelerating liquid electrolyte discovery for next-generation batteries using data-driven techniques](https://zero.ox.ac.uk/events/zero-institute-seminar-accelerating-liquid-electrolyte-discovery-for-next-generation-batteries-using-data-driven-techniques-with-ritesh-kumar/) | September 18, 2025
 
-Refer [News & highlights](news) for more news and highlights from the lab.
+Please refer to the [News & highlights](news) page for more news and highlights from the lab.
 
 ---
 
