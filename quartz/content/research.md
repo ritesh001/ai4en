@@ -65,20 +65,10 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 **Objective**: Build tools that automate scientific workflows and accelerate discovery.
 
-**Software projects:**
 
-#### `AtomBridge`
-- Automated conversion of STEM images to crystal structures using LLMs and computer vision
-- Bridges the gap between microscopy and atomic-scale modeling
-- [GitHub Repository](https://github.com/dpalmer-anl/AtomBridge)
-- **Award**: 2025 Visionary Award at LLM Hackathon for Materials Science & Chemistry
+**Note:**
+Refer [Software](software) page for implementation of some of our research projects.
 
-#### `curAItor-agent`
-- Autonomous scientific data extraction from literature using LLMs and AI agents
-- Reduces manual data curation time by 95%
-- [GitHub Repository](https://github.com/ritesh001/curaitor-agent)
-
-Refer [Software](software) page for more details
 ---
 
 ## Mentoring philosophy

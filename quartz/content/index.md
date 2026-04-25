@@ -6,6 +6,8 @@ title: "Home"
 
 Our research focuses on accelerating materials discovery for next-generation energy storage and conversion devices at the intersection of artificial intelligence (AI), multiscale computational simulations, and scientific theory. By developing trustworthy AI and physics-informed simulation techniques, we aim to bridge the gap between molecular design and macroscopic material properties, enabling the rational development of high-performance batteries, catalysts, and functional materials.
 
+**The problem?** For example, different aspects of battery research is siloed across different scientific and engineering domains. Chemists and material scientists are interested in designing molecules or materials in a bottom-up fashion. On the other hand, electrochemists are interested in understanding the mechanism of electrochemical reactions at the interface of electrodes and electrolytes to optimize device performance. Similarly, chemical and mechanical engineers are interested in designing and fabricating devices to scale. But each of them speak entirely different languages (almost like Mandarin vs Spanish) and hence the seamless integration of knowledge across these domains is seldom achieved. Data-driven tools hold immense potential in seemlessly integrating knowledge across these domains and accelerate the realization of next-generation energy storage and conversion devices. However, off-the-shelf AI/ML tools can barely have significant impact.
+
 While these techniques are already being used by domain scientists to solve problems related to electrochemical energy, they are typically siloed and cross-disciplinary approach is seldom taken. Our research efforts aim to bridge this gap by developing unified, general-purpose, and trustworthy data-driven techniques to accelerate materials discovery for electrochemical energy applications.
 
 Please have a look at our individual profiles in the [Members](members) page for detailed information about us.
@@ -34,6 +36,13 @@ Please refer to the [Research](research) page for detailed research philosophy a
 
 Please refer to the [News & highlights](news) page for more news and highlights from the lab.
 
+---
+
+## Openings (April 2026)
+
+We are actively looking for motivated postdocs, interns, and graduate students who are ready to take on challenges head on and contribute to high-impact research in the broad area of artificial intelligence and electrochemical energy. 
+
+If interested, please refer to the [Openings](openings) page for more information.
 ---
 
 ## How to contact us?
