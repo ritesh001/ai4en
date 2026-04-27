@@ -4,22 +4,25 @@ title: "Home"
 
 ## About IE$^2$ Lab
 
-Our research focuses on accelerating materials discovery for next-generation energy storage and conversion devices at the intersection of artificial intelligence (AI), multiscale computational simulations, and scientific theory. By developing trustworthy AI and physics-informed simulation techniques, we aim to bridge the gap between molecular design and macroscopic material properties, enabling the rational development of high-performance batteries, catalysts, and functional materials.
+Our research focuses on accelerating the discovery of materials for next-generation energy storage. We work at the intersection of Artificial Intelligence (AI), multiscale computer simulations, and scientific theory. By developing trustworthy AI and physics-informed models, we bridge the gap between microscopic molecular design and macroscopic device performance. Our goal is the rational development of high-performance batteries, catalysts, and functional materials.
 
-**The problem?** For example, different aspects of battery research is siloed across different scientific and engineering domains. Chemists and material scientists are interested in designing molecules or materials in a bottom-up fashion. On the other hand, electrochemists are interested in understanding the mechanism of electrochemical reactions at the interface of electrodes and electrolytes to optimize device performance. Similarly, chemical and mechanical engineers are interested in designing and fabricating devices to scale. But each of them speak entirely different languages (almost like Mandarin vs Spanish) and hence the seamless integration of knowledge across these domains is seldom achieved. Data-driven tools hold immense potential in seemlessly integrating knowledge across these domains and accelerate the realization of next-generation energy storage and conversion devices. However, off-the-shelf AI/ML tools can barely have significant impact.
+### The Challenge: Breaking Down Silos
+Currently, energy research is fragmented. Chemists and materials scientists focus on a "bottom-up" approach to designing molecules. Electrochemists study the complex reactions where those molecules meet an electrode. Engineers focus on scaling these discoveries into real-world devices.
+The problem is that these groups often speak entirely different technical languages. This lack of communication means that vital knowledge is rarely integrated seamlessly. While data-driven tools (AI/ML) have the potential to unite these fields, "off-the-shelf" AI rarely provides the deep scientific insights needed for a breakthrough.
 
-While these techniques are already being used by domain scientists to solve problems related to electrochemical energy, they are typically siloed and cross-disciplinary approach is seldom taken. Our research efforts aim to bridge this gap by developing unified, general-purpose, and trustworthy data-driven techniques to accelerate materials discovery for electrochemical energy applications.
+### Our Mission
+We strive to put the pieces of the puzzle together. Our lab develops unified, general-purpose, and trustworthy data-driven techniques specifically tailored for electrochemical energy. We are here to blur the lines between disciplines, much like James Clerk Maxwell did by connecting electricity and magnetism. In this group, we are chemists, physicists, materials scientists, and data scientists working as one.
 
-Please have a look at our individual profiles in the [Members](members) page for detailed information about us.
+For more details on our team, please visit the [Members](members) page.
 
 ---
 
 ## What do we do?
 
-- **Materials discovery**: Developing trustworthy (interpretable) and universal artificial intelligence (AI)/machine learning (ML) techniques for materials discovery (electrolytes/electrodes) in batteries, fuel cells, and other energy technologies
-- **Multiscale phenomena**: Molecular and materials design of efficient electrolytes and electrodes for next-generation batteries including lithium metal batteries
-- **Literature mining**: Molecular and materials design of efficient catalysts and electrolytes for key reactions of industrial importance
-- **Automation**: Molecular dynamics (MD), density functional theory (DFT), and continuum modeling for atomistic-, molecular-, and macro-level investigation of materials and interfaces
+- **Materials discovery**: We develop interpretable and universal AI/ML models to identify new electrolytes and electrodes for batteries, fuel cells, and other green energy technologies.
+- **Multiscale phenomena**: We design efficient components for next-generation systems, such as lithium-metal batteries, by studying how materials behave at both the atomic and the system level.
+- **Literature & data mining**: We automate extraction of insights from vast amounts of scientific data, accelerating the design of catalysts for industrial reactions.
+- **Automation**: We leverage AI agents to automate computational modeling and to seamlessly integrate between our four research pillars.
 
 Please refer to the [Research](research) page for detailed research philosophy and research interests of our lab.
 
@@ -40,7 +43,7 @@ Please refer to the [News & highlights](news) page for more news and highlights 
 
 ## Openings (April 2026)
 
-We are actively looking for motivated postdocs, interns, and graduate students who are ready to take on challenges head on and contribute to high-impact research in the broad area of artificial intelligence and electrochemical energy. 
+We are actively looking for motivated postdocs, interns, and graduate students who are willing to take on the stringent challenges head on and contribute to high-impact research in the broader area of artificial intelligence as applied to electrochemical energy. 
 
 Interested candidates can refer to the [Openings](openings) page for more information.
 
