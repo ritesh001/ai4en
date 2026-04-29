@@ -24,11 +24,14 @@ For more details on our team, please visit the [Members](members) page.
 
 <div class="blog-entry" id="blog-01">
   <img class="blog-image" src="./images/figure1_summary_mix_comp.jpg" alt="workflow-2" />
-  <span class="blog-text"> 
-    • <em>Materials discovery</em>: We develop interpretable and universal AI/ML models to identify new electrolytes and electrodes for batteries, fuel cells, and other green energy technologies.
-    • <em>Scientific theory development</em>: We improve existing scientific theories in the field of electrochemical energy to make them more generalizable and universally applicable.
-    • <em>Multiscale phenomena</em>: We develop tools and utilities to enable multiscale simulations to connect materials behavior at the atomistic scale to the device performance and macroscopic phenomena at the system level.
-    • <em>Literature & data mining</em>: We automate extraction of insights from vast amounts of scientific data, accelerating the design of catalysts for industrial reactions. </span>
+  <div class="blog-text"> 
+    <ul>
+      <li><em>Data-driven materials discovery</em>: We develop interpretable and universal AI/ML models to identify promising and efficient electrolytes and electrodes for batteries, fuel cells, and other electrochemical energy technologies.</li>
+      <li><em>Scientific theory development</em>: We refine existing scientific theories in the electrochemical energy field to make them more generalizable and universally applicable.</li>
+      <li><em>Multiscale phenomena</em>: We develop tools and utilities to enable multiscale simulations to connect materials behavior at the atomistic scale to the device performance and macroscopic phenomena at the system level.</li>
+      <li><em>Literature & data mining</em>: We automate extraction of insights from vast amounts of scientific data, accelerating the design of catalysts for industrial reactions.</li>
+    </ul>
+  </div>
 </div>
 
 Please refer to the [Research](research) page for detailed research philosophy and research interests of our lab.
