@@ -12,13 +12,19 @@ aliases:
 
 ## Preprints
 
+1. Coming soon!
+
 ## Peer-reviewed articles
+
+1. Coming soon!
 
 ---
 
 # Ritesh's postdoc/Ph.D. publications
 
 ## Preprints
+
+2. A. Roy, K. Shen, ..., **R. Kumar**, I. Foster, B. Blaiszik. "From Knowledge to Action: Outcomes of the 2025 Large Language Model (LLM) Hackathon for Applications in Materials Science and Chemistry." *arXiv* (2026) [DOI](https://doi.org/10.48550/arXiv.2605.03205)
 
 1. M. Dey, **R. Kumar**, A. K. Singh. "Synergistic Interplay between Surface Polarons and Adsorbates for Photocatalytic
 Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.48550/arXiv.2604.09291)
@@ -31,7 +37,7 @@ Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.485
 
 <div class="pub-entry" id="pub-26">
   <img class="pub-thumb" src="./images/SFBTHF-clus_26.png" alt="FC ether" />
-  <span class="pub-text">26. K. H. Wang, <strong>R. Kumar</strong>, P. Ma, J. Kim, B. Kim, C. V. Amanchukwu. “AI-accelerated realization of next-generation batteries: <em>status quo</em> and outlook.” <em>Chem. Commun.</em> (2026). <a href="https://doi.org/10.1039/D6CC01108J">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cc&themeid=356d3388-d168-4cd9-a5bb-80202f298ea6">“2026 Pioneering Investigator Collection”</a> Themed Collection) </span>
+  <span class="pub-text">26. K. H. Wang, <strong>R. Kumar</strong>, P. Ma, J. Kim, B. Kim, C. V. Amanchukwu. “Fluoroalkyl-Functionalized Cyclic Ethers as Solvent for High-Voltage Batteries.” <em>Chem. Commun.</em> (2026). <a href="https://doi.org/10.1039/D6CC01108J">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cc&themeid=356d3388-d168-4cd9-a5bb-80202f298ea6">“2026 Pioneering Investigator Collection”</a> Themed Collection) </span>
 </div>
 
 <div class="pub-entry" id="pub-25">

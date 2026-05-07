@@ -6,7 +6,7 @@ aliases:
 
 ## Research philosophy
 
-My research combines **artificial intelligence**, **computational chemistry**, and **experimental validation** to accelerate the discovery of materials for sustainable energy applications. I focus on developing data-driven frameworks that leverage machine learning, molecular simulations, and high-throughput experimentation to design next-generation battery electrolytes and catalysts.
+Our research combines **artificial intelligence**, **computational chemistry**, and **experimental validation** to accelerate the discovery of materials for sustainable energy applications. I focus on developing data-driven frameworks that leverage machine learning, molecular simulations, and high-throughput experimentation to design next-generation battery electrolytes and catalysts.
 
 ---
 
@@ -18,11 +18,7 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 
 **Key contributions:**
 - Developed **Electrolytomics**: A unified big data approach integrating multiple electrolyte databases (20,000+ entries) for systematic design and discovery ([*Chem. Mater.* 2025](https://doi.org/10.1021/acs.chemmater.4c03309))
-- Enhanced **Bayesian optimization** techniques to handle data-scarce and noisy-label settings in real-world battery discovery
 - Created **active learning** frameworks that reduced experimental screening by 80% while maintaining discovery accuracy ([*Nat. Commun.* 2025](https://doi.org/10.1038/s41467-025-56398-7))
-- Developed **solvent embedding** techniques using graph neural networks to guide electrolyte discovery
-
-**Impact**: Enabled rapid identification of promising electrolyte candidates, reducing development time from months to weeks.
 
 ---
 
@@ -34,8 +30,6 @@ My research combines **artificial intelligence**, **computational chemistry**, a
 - Discovered that **water clustering** in aprotic media modulates activity and enables hydrogenated product formation during CO electroreduction ([*JACS* 2025](https://doi.org/10.1021/jacs.4c13374))
 - Revealed how **water hydrogen bonding** within nonaqueous environments controls reactivity in electrochemical transformations ([*Nat. Catal.* 2024](https://doi.org/10.1038/s41929-024-01155-6))
 - Formulated **computational descriptors** from MD simulations to predict electrolyte performance in CO₂/CO reduction
-
-**Techniques**: Ab initio molecular dynamics (AIMD), enhanced sampling methods, free energy calculations
 
 ---
 
@@ -77,24 +71,11 @@ Refer [Software](software) page for implementation of some of our research proje
 
 ---
 
-## Future directions
-
-- **Autonomous laboratories**: Developing closed-loop systems that integrate ML, robotics, and simulations for self-driving materials discovery
-- **Generative models**: Creating novel molecular architectures beyond explored chemical spaces
-- **Multi-scale modeling**: Connecting atomistic insights to device-level performance
-- **Sustainable chemistry**: Designing earth-abundant, non-toxic materials for energy applications
 
 ---
 
 ## Collaborative projects
 
----
-
-## Past experimental collaborations:
-- High-entropy alloys for electrocatalysis (with Prof. Krishanu Biswas, IIT Kanpur)
-- CO<sub>2</sub> photoreduction catalysts (with Prof. S. C. Peter, JNCASR)
-- 2D materials synthesis and characterization (with Prof. Pulickel Ajayan, Rice University)
-- Fuel cell catalysts (with Prof. K. K. Nanda, JNCASR)
 
 ---
 
