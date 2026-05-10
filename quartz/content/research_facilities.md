@@ -25,13 +25,9 @@ aliases:
 <table style="border-collapse: collapse; width: 100%;">
 <tr><th style="text-align: left; padding: 6px 12px; border-bottom: 2px solid #555;">Component</th><th style="text-align: left; padding: 6px 12px; border-bottom: 2px solid #555;">Details</th></tr>
 <tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Processor</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Intel Core i9-14900K (14th Gen)</td></tr>
-<tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">CPU Cooler</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Cooler Master 360 Liquid Cooler</td></tr>
-<tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Motherboard</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Gigabyte Z790 UD</td></tr>
 <tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">RAM</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Corsair 32 GB DDR5</td></tr>
-<tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Power Supply</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Cooler Master 1000W Gold</td></tr>
 <tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Storage</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Corsair 1 TB SSD</td></tr>
 <tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Graphics Card</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Gigabyte RTX 5060 (8 GB)</td></tr>
-<tr><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Cabinet</td><td style="padding: 6px 12px; border-bottom: 1px solid #333;">Cooler Master MB 520</td></tr>
 </table>
 </td>
 </tr>

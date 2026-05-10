@@ -10,11 +10,37 @@ title: "Home"
 </div>
 
 ### Challenge: breaking down silos
-Currently, energy research is fragmented. Chemists and materials scientists focus on a "bottom-up" approach to designing molecules and materials. Electrochemists are interested inthe complex reactions and phenomena at the electrode-electrolyte interfaces. Engineers focus on scaling these discoveries into real-world devices.
+Currently, energy research is fragmented. Chemists and materials scientists focus on a "bottom-up" approach to designing molecules and materials. Electrochemists are interested in the complex reactions and phenomena at the electrode-electrolyte interfaces. Engineers focus on scaling these discoveries into real-world devices.
 The problem is that different groups often speak entirely different technical languages. This lack of communication means that vital knowledge is rarely integrated seamlessly. While data-driven tools (AI/ML) have the potential to unite these fields, "off-the-shelf" AI rarely provides the deep scientific insights needed for a breakthrough.
 
 ### Our mission
 We strive to put the pieces of the puzzle together. Our lab develops unified, general-purpose, and trustworthy data-driven techniques specifically tailored for electrochemical energy. We are here to blur the lines between disciplines, much like James Clerk Maxwell did by connecting electricity and magnetism. In this group, we are chemists, physicists, materials scientists, and data scientists working as one.
+
+We are driven by following quotes from famous scientists:
+
+<div class="quote-box quote-box--blue">
+  <img class="quote-box__image" src="./images/PaulDirac.jpg" alt="Paul Dirac" />
+  <div class="quote-box__content">
+    <p class="quote-box__text">"The fundamental laws necessary for the mathematical treatment of a large part of physics and the whole of chemistry are thus completely known, and the difficulty lies only in the fact that application of these laws leads to equations that are too complex to be solved."</p>
+    <p class="quote-box__author">— Paul A. M. Dirac</p>
+  </div>
+</div>
+
+<div class="quote-box quote-box--amber">
+  <img class="quote-box__image" src="./images/GeorgeEPBox.jpg" alt="George Box" />
+  <div class="quote-box__content">
+    <p class="quote-box__text">"All models are wrong, but some are useful."</p>
+    <p class="quote-box__author">— George E. P. Box</p>
+  </div>
+</div>
+
+<div class="quote-box quote-box--teal">
+  <img class="quote-box__image" src="./images/John_von_Neumann.jpg" alt="John von Neumann" />
+  <div class="quote-box__content">
+    <p class="quote-box__text">"With four parameters I can fit an elephant and with five I can make him wiggle his trunk."</p>
+    <p class="quote-box__author">— John von Neumann</p>
+  </div>
+</div>
 
 For more details on our team, please visit the [Members](members) page.
 
@@ -51,11 +77,19 @@ Please refer to the [News & highlights](news) page for more news and highlights 
 
 ---
 
-## Openings (April 2026)
+## Open positions (Summer 2026)
 
 We are actively seeking motivated postdocs, graduate students, and interns to join our team. We look for researchers eager to tackle complex challenges and contribute to high-impact work at the frontier of AI and electrochemical energy.
 
 Interested candidates can refer to the [Openings](openings) page for more information.
+
+---
+
+## Collaboration opportunities
+
+We welcome collaborations with researchers from academia and industry (national and international) on all aspects of electrochemical energy research -- computational, experimental, and scale-up.
+
+If you are interested in collaborating with us, please feel free to reach out via email.
 
 ---
 
