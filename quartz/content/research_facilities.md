@@ -19,7 +19,7 @@ aliases:
 <table style="border: none; border-collapse: collapse;">
 <tr style="border: none;">
 <td style="border: none; vertical-align: top; padding-right: 2rem; width: 280px;">
-<img src="./images/workstation_1.jpeg" alt="Workstation" style="width: 280px; border-radius: 8px;" />
+<img src="./images/resource_workstation_1.jpeg" alt="Workstation" style="width: 280px; border-radius: 8px;" />
 </td>
 <td style="border: none; vertical-align: top;">
 <table style="border-collapse: collapse; width: 100%;">

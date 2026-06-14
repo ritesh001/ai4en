@@ -36,24 +36,24 @@ Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.485
 ### 2026
 
 <div class="pub-entry" id="pub-26">
-  <img class="pub-thumb" src="./images/SFBTHF-clus_26.png" alt="FC ether" />
+  <img class="pub-thumb" src="./images/pub_SFBTHF-clus_26.png" alt="FC ether" />
   <span class="pub-text">26. K. H. Wang, <strong>R. Kumar</strong>, P. Ma, J. Kim, B. Kim, C. V. Amanchukwu. “Fluoroalkyl-Functionalized Cyclic Ethers as Solvent for High-Voltage Batteries.” <em>Chem. Commun.</em> (2026). <a href="https://doi.org/10.1039/D6CC01108J">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cc&themeid=356d3388-d168-4cd9-a5bb-80202f298ea6">“2026 Pioneering Investigator Collection”</a> Themed Collection) </span>
 </div>
 
 <div class="pub-entry" id="pub-25">
-  <img class="pub-thumb" src="./images/AI4Battery_4pillars_25.jpg" alt="AI4Battery thumbnail" />
+  <img class="pub-thumb" src="./images/pub_AI4Battery_4pillars_25.jpg" alt="AI4Battery thumbnail" />
   <span class="pub-text">25. <strong>R. Kumar</strong>, C. V. Amanchukwu. “AI-accelerated realization of next-generation batteries: <em>status quo</em> and outlook.” <em>Curr. Opin. Chem. Eng.</em> <strong>52</strong>, 101252 (2026). <a href="https://doi.org/10.1016/j.coche.2026.101252">DOI</a> (Part of <a href="https://www.sciencedirect.com/special-issue/10R5JHLL00S">“Artificial Intelligence and Chemical Engineering”</a> Special Issue) </span>
 </div>
 
 <!-- <span id="pub-24"></span> -->
 
 <div class="pub-entry" id="pub-24">
-  <img class="pub-thumb" src="./images/ElectrolyteGPT_24.png" alt="ElectrolyteGPT thumbnail" />
+  <img class="pub-thumb" src="./images/pub_ElectrolyteGPT_24.png" alt="ElectrolyteGPT thumbnail" />
   <span class="pub-text">24. J. Kim, K.-H. Wang, <strong>R. Kumar</strong>, P. Ma, C. V. Amanchukwu. “Generative Electrolyte Solvent and Formulation Discovery.” <em>JACS Au</em> (2026). <a href="https://doi.org/10.1021/jacsau.5c01628">DOI</a> (Part of <a href="https://axial.acs.org/energy/call-for-papers-future-perspectives-on-battery-chemistries">“Future Perspectives on Battery Chemistries”</a> Special Issue) </span>
 </div>
 
 <div class="pub-entry" id="pub-23">
-  <img class="pub-thumb" src="./images/red_emb_cover_23.jpg" alt="red_emb thumbnail" />
+  <img class="pub-thumb" src="./images/pub_red_emb_cover_23.jpg" alt="red_emb thumbnail" />
   <span class="pub-text">23. <strong>R. Kumar<sup>†</sup></strong>, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. “Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery.” <em>Mol. Syst. Des. Eng.</em> <strong>11</strong>, 422-435 (2026). <a href="https://doi.org/10.1039/D5ME00188A">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=me&themeid=b6a6d88a-a1a0-4884-a892-f4760c1cf502">“Festschrift in honour of Juan de Pablo’s 60th birthday”</a> Themed Collection) <strong>Featured on the cover image</strong> </span>
 </div>
 

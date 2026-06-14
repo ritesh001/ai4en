@@ -38,7 +38,7 @@ Physical activities, meditation, walking, reading books, watching TV shows.
   </a>
 </div>
 
-View my full [CV](Ritesh_Kumar_CV.pdf) here.
+View Ritesh's full [CV](Ritesh_Kumar_CV.pdf) here.
 
   </div>
 </div>
@@ -135,7 +135,7 @@ View my full [CV](Ritesh_Kumar_CV.pdf) here.
 ## 1. Sourabh Subhashish Panda
 <div class="member-card">
   <div class="member-photo-wrap">
-    <div class="member-photo" src="./images/mem_intern_Sourabh.jpeg" alt="Sourabh Subhashish Panda"></div>
+    <img class="member-photo" src="./images/mem_intern_Sourabh.jpeg" alt="Sourabh Subhashish Panda" />
   </div>
   <div class="member-info">
 

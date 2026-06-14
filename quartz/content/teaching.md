@@ -33,7 +33,7 @@ aliases:
 
 ## Vigyandeep lecture series (June 2026)
 
-Ritesh was invited to a deliver lecture in this series designed for mostly undergraduate series, where he introduced Bayesian machine learning and how can it be leveraged to accelerate scientific discoveries. The materials have been uploaded a GitHub repository that can be accessed using the following like: https://github.com/ritesh001/vigyandeep-tutorial-2026
+Ritesh was invited to a deliver lecture in this series designed for mostly undergraduate series, where he introduced Bayesian machine learning and how can it be leveraged to accelerate scientific discoveries. The materials have been uploaded a GitHub repository that can be accessed using the following link: https://github.com/ritesh001/vigyandeep-tutorial-2026
 
 ## AI for Science
 
@@ -50,4 +50,3 @@ Here is the slide deck for the AI for Science course. Use arrow keys or click to
 ## Related Pages
 
 - [Blogs](blogs)
-- [Software](software)
