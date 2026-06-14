@@ -54,7 +54,7 @@ Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.485
 
 <div class="pub-entry" id="pub-23">
   <img class="pub-thumb" src="./images/red_emb_cover_23.jpg" alt="red_emb thumbnail" />
-  <span class="pub-text">23. <strong>R. Kumar<sup>†</sup></strong>, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. “Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery.” <em>Mol. Syst. Des. Eng.</em> (2026). <a href="https://doi.org/10.1039/D5ME00188A">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=me&themeid=b6a6d88a-a1a0-4884-a892-f4760c1cf502">“Festschrift in honour of Juan de Pablo’s 60th birthday”</a> Themed Collection) <strong>Featured on the cover image</strong> </span>
+  <span class="pub-text">23. <strong>R. Kumar<sup>†</sup></strong>, K.-H. Wang<sup>†</sup>, C. V. Amanchukwu. “Using Electrolyte Solvent Embeddings to Guide Battery Electrolyte Discovery.” <em>Mol. Syst. Des. Eng.</em> <strong>11</strong>, 422-435 (2026). <a href="https://doi.org/10.1039/D5ME00188A">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=me&themeid=b6a6d88a-a1a0-4884-a892-f4760c1cf502">“Festschrift in honour of Juan de Pablo’s 60th birthday”</a> Themed Collection) <strong>Featured on the cover image</strong> </span>
 </div>
 
 ### 2025

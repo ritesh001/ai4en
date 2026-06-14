@@ -9,7 +9,8 @@ const ProfileImage: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
     <div class={classNames(displayClass, "profile-image-container")}>
       <img
         class="profile-image"
-        src={`${baseDir}/images/logo_1.png`}
+        // src={`${baseDir}/images/logo_1.png`}
+        src={`${baseDir}/images/logo_animated_061426.gif`}
         alt="IE^2"
         loading="lazy"
       />

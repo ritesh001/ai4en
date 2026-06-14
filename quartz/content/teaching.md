@@ -15,12 +15,25 @@ aliases:
 
 ## As co-instructors (TA)
 
+### Computational materials @ IISc Bangalore
+
+### Quantum chemistry and group theory @ IISc Bangalore
 
 ## As guest lecturer
+
+### Energy conversion and storage devices (February 2026) @ UChicago
+
+### Thermodynamics and phase equilibria (November 2025) @ UChicago
+
+### Energy conversion and storage devices (March 2023) @ UChicago 
 
 ---
 
 # Teaching content
+
+## Vigyandeep lecture series (June 2026)
+
+Ritesh was invited to a deliver lecture in this series designed for mostly undergraduate series, where he introduced Bayesian machine learning and how can it be leveraged to accelerate scientific discoveries. The materials have been uploaded a GitHub repository that can be accessed using the following like: https://github.com/ritesh001/vigyandeep-tutorial-2026
 
 ## AI for Science
 

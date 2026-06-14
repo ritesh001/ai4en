@@ -6,7 +6,7 @@ aliases:
 
 ## In-house
 
-### 1. Server
+### 1. Server (Hoffmann)
 
 | Specifications  | Details |
 | --------------- | ------- |
@@ -14,7 +14,7 @@ aliases:
 | Total memory    | -       |
 
 
-### 2. Workstation
+### 2. Workstation (Goodenough)
 
 <table style="border: none; border-collapse: collapse;">
 <tr style="border: none;">
@@ -51,4 +51,9 @@ aliases:
 | GPU model       | 2x Nvidia H200 SXM5    |
 | Total memory    | 282 GB |
 
+---
+
 ## Computational allocations
+
+### Fugaku Supercomputer, Japan
+

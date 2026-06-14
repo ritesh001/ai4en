@@ -52,7 +52,11 @@
 
 .member-card h4 {
   margin-top: 0.3rem;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0;
+}
+
+.member-card h4 + p {
+  margin-top: 0.1rem;
 }
 
 /* ── Social / contact icons ── */

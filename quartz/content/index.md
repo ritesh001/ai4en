@@ -11,6 +11,7 @@ title: "Home"
 
 ### Challenge: breaking down silos
 Currently, energy research is fragmented. Chemists and materials scientists focus on a "bottom-up" approach to designing molecules and materials. Electrochemists are interested in the complex reactions and phenomena at the electrode-electrolyte interfaces. Engineers focus on scaling these discoveries into real-world devices.
+
 The problem is that different groups often speak entirely different technical languages. This lack of communication means that vital knowledge is rarely integrated seamlessly. While data-driven tools (AI/ML) have the potential to unite these fields, "off-the-shelf" AI rarely provides the deep scientific insights needed for a breakthrough.
 
 ### Our mission
@@ -66,6 +67,7 @@ Please refer to the [Research](research) page for detailed research philosophy a
 
 ## Recent news & highlights
 
+- [Sourabh](members)'s joins as the first member of the IE$^2$ Lab as Summer Intern through the TCG CREST's [ARC programme](https://tcgcrestdtbu.ac.in/rise/).
 - [Ritesh](members)'s perspective paper on AI for batteries published in *[Current Opinion in Chemical Engineering](publications#pub-25)* as a part of Special Issue on "Artificial Intelligence and Chemical Engineering" | April 2026
 - [Ritesh](members)'s co-authored work on electrolyte discovery using generative AI (`ElectrolyteGPT`) published in *[JACS Au](publications#pub-24)* (published as a part of "Future Perspectives on Battery Chemistries" Special Issue) | April 2026
 - [Ritesh](members) contributed to blog post by a [Chemistry World](https://www.chemistryworld.com/news/machine-learning-cuts-complexity-of-computational-calculations-in-catalysis/4023047.article) (published by Royal Society of Chemistry) | March 2026
@@ -79,7 +81,9 @@ Please refer to the [News & highlights](news) page for more news and highlights 
 
 ## Open positions (Summer 2026)
 
-We are actively seeking motivated postdocs, graduate students, and interns to join our team. We look for researchers eager to tackle complex challenges and contribute to high-impact work at the frontier of AI and electrochemical energy.
+We do not have any openings in the lab as of June 2026, but please keep checking in the future.
+
+~~We are actively seeking motivated postdocs, graduate students, and interns to join our team. We look for researchers eager to tackle complex challenges and contribute to high-impact work at the frontier of AI and electrochemical energy.~~
 
 Interested candidates can refer to the [Openings](openings) page for more information.
 
