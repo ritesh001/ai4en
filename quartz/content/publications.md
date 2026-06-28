@@ -34,10 +34,14 @@ Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.485
 ## Peer-reviewed articles
 
 ### 2026
+<div class="pub-entry" id="pub-27">
+  <img class="pub-thumb" src="./images/pub_TRACE_27.jpg" alt="TRACE" />
+  <span class="pub-text">27. H. Xin, J. Kitchin, N. Lopez, ..., <strong>R. Kumar</strong>, ..., Z. Zhang. “Transparent reporting for agentic catalysis enabled by artificial intelligence: Community guidelines and a publication checklist.” <em>Chem Catal.</em> <strong>6</strong>, 101755 (2026). <a href="https://doi.org/10.1016/j.checat.2026.101755">DOI</a> </span>
+</div>
 
 <div class="pub-entry" id="pub-26">
   <img class="pub-thumb" src="./images/pub_SFBTHF-clus_26.png" alt="FC ether" />
-  <span class="pub-text">26. K. H. Wang, <strong>R. Kumar</strong>, P. Ma, J. Kim, B. Kim, C. V. Amanchukwu. “Fluoroalkyl-Functionalized Cyclic Ethers as Solvent for High-Voltage Batteries.” <em>Chem. Commun.</em> (2026). <a href="https://doi.org/10.1039/D6CC01108J">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cc&themeid=356d3388-d168-4cd9-a5bb-80202f298ea6">“2026 Pioneering Investigator Collection”</a> Themed Collection) </span>
+  <span class="pub-text">26. K. H. Wang, <strong>R. Kumar</strong>, P. Ma, J. Kim, B. Kim, C. V. Amanchukwu. “Fluoroalkyl-Functionalized Cyclic Ethers as Solvent for High-Voltage Batteries.” <em>Chem. Commun.</em> (2026). <a href="https://doi.org/10.1039/D6CC01108J">DOI</a> (Part of <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cc&themeid=356d3388-d168-4cd9-a5bb-80202f298ea6">“2026 Pioneering Investigator Collection”</a> Themed Collection) <strong>Featured on the cover image</strong> </span>
 </div>
 
 <div class="pub-entry" id="pub-25">
@@ -58,10 +62,9 @@ Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.485
 </div>
 
 ### 2025
-
 <div class="pub-entry" id="pub-22">
-  <img class="pub-thumb" src="./images/placeholder_22.jpg" alt="Pub 22 thumbnail" />
-  <span class="pub-text">22. P. Ma<sup>†</sup>, <strong>R. Kumar<sup>†</sup></strong>, K.-H. Wang, C. V. Amanchukwu. “Active learning accelerates electrolyte solvent screening for anode-free lithium metal batteries.” <em>Nat. Commun.</em> <strong>16</strong>, 8396 (2025). <a href="https://doi.org/10.1038/s41467-025-63303-7">DOI</a></span>
+  <img class="pub-thumb" src="./images/pub_AL_Nat_Comm_22.jpg" alt="AL thumbnail" />
+  <span class="pub-text">22. P. Ma<sup>†</sup>, <strong>R. Kumar<sup>†</sup></strong>, K.-H. Wang, C. V. Amanchukwu. “Active learning accelerates electrolyte solvent screening for anode-free lithium metal batteries.” <em>Nat. Commun.</em> <strong>16</strong>, 8396 (2025). (Part of <a href="https://www.nature.com/collections/agfdchgghh">“Initially Anode-less and Anode-free Batteries”</a> Collection) <a href="https://doi.org/10.1038/s41467-025-63303-7">DOI</a></span>
 </div>
 
 <div class="pub-entry" id="pub-21">
@@ -70,7 +73,7 @@ Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.485
 </div>
 
 <div class="pub-entry" id="pub-20">
-  <img class="pub-thumb" src="./images/placeholder_20.jpg" alt="Pub 20 thumbnail" />
+  <img class="pub-thumb" src="./images/pub_Electrolytomics_20.jpg" alt="Electrolytomics thumbnail" />
   <span class="pub-text">20. <strong>R. Kumar</strong>, M. C. Vu, P. Ma, C. V. Amanchukwu. “Electrolytomics: A Unified Big Data Approach for Electrolyte Design and Discovery.” <em>Chem. Mater.</em> <strong>37</strong>, 2720–2734 (2025). <a href="https://doi.org/10.1021/acs.chemmater.4c03196">DOI</a></span>
 </div>
 
@@ -191,8 +194,6 @@ Nitrogen Reduction on TiO$_2$(110)." *arXiv* (2026) [DOI](https://doi.org/10.485
 </div>
 
 ---
-
-## Review articles
 
 ## Related Pages
 

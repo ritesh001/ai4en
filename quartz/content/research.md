@@ -10,7 +10,11 @@ Our research combines **artificial intelligence**, **computational chemistry**, 
 
 ---
 
-## Research themes
+## Mentoring philosophy
+
+---
+
+## Research themes (overarching)
 
 ### 1. AI-driven electrolyte discovery for next-generation batteries
 
@@ -65,17 +69,7 @@ Refer [Software](software) page for implementation of some of our research proje
 
 ---
 
-## Mentoring philosophy
-
-
-
----
-
-
----
-
 ## Collaborative projects
-
 
 ---
 
