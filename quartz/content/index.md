@@ -75,10 +75,10 @@ Please refer to the [Research](research) page for detailed research philosophy a
 ---
 
 ## Recent news & highlights
-`
-- [Samanvitha](members) joins as a Postdoc in the IE$^2$ Lab. She has joined our group after graduating from France and will be working on ML force field development for liquid electrolytes. | June 2026
+
+- [Samanvitha](members#1-samanvitha-k-v-shankar) joins as a Postdoc in the IE$^2$ Lab. She has joined our group after graduating from France and will be working on ML force field development for liquid electrolytes. | June 2026
 - [Ritesh](members) contributed to a perspective article on AI agents for catalysis published in [Chem Catalysis](publications#pub-27). | June 2026
-- [Sourabh](members) joins as the first member of the IE$^2$ Lab as Summer Intern through the TCG CREST's [ARC programme](https://tcgcrestdtbu.ac.in/rise/). | May 2026
+- [Sourabh](members#1-sourabh-subhashish-panda) joins as the first member of the IE$^2$ Lab as Summer Intern through the TCG CREST's [ARC programme](https://tcgcrestdtbu.ac.in/rise/). | May 2026
 - [Ritesh](members)'s perspective article on AI for batteries published in *[Current Opinion in Chemical Engineering](publications#pub-25)* as a part of Special Issue on "Artificial Intelligence and Chemical Engineering" | April 2026
 - [Ritesh](members)'s co-authored work on electrolyte discovery using generative AI (`ElectrolyteGPT`) published in *[JACS Au](publications#pub-24)* (as a part of "Future Perspectives on Battery Chemistries" Special Issue) | April 2026
 - [Ritesh](members) contributed to blog post by a [Chemistry World](https://www.chemistryworld.com/news/machine-learning-cuts-complexity-of-computational-calculations-in-catalysis/4023047.article) (published by Royal Society of Chemistry) | March 2026
