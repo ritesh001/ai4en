@@ -6,7 +6,7 @@ title: "Home"
 
 <div class="blog-entry" id="blog-0">
   <img class="blog-image" src="./images/first_workflow_1.png" alt="workflow-1" />
-  <span class="blog-text"> Modern electrochemical energy devices -- batteries, fuel cells, and electrolyzers -- are governed by phenomena spanning several orders of magnitude in length and time. Molecular interactions determine interfacial processes, interfacial processes influence transport and reaction kinetics, and these ultimately dictate device performance, lifetime, and safety. Despite decades of progress, connecting these scales into predictive and generalizable frameworks remains a major scientific challenge. Our vision is to bridge these scales through trustworthy AI, scientific theory, and multiscale simulations, enabling a new generation of predictive tools for electrochemical energy research.
+  <span class="blog-text"> Modern electrochemical energy devices $$-$$ batteries, fuel cells, and electrolyzers $$-$$ are governed by phenomena spanning several orders of magnitude in length and time. Molecular interactions determine interfacial processes, interfacial processes influence transport and reaction kinetics, and these ultimately dictate device performance, lifetime, and safety. Despite decades of progress, connecting these scales into predictive and generalizable frameworks remains a major scientific challenge. Our vision is to bridge these scales through trustworthy AI, scientific theory, and multiscale simulations, enabling a new generation of predictive tools for electrochemical energy research.
  </span>
 </div>
 
